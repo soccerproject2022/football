@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>page A8</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/page_a8/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Source+Code+Pro" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/page_a8/data.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/locales/de_DE.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/germanyLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+    <script>
+      window.onload = function () {
+      
+        var chart = new CanvasJS.Chart("chartContainer", {
+      	animationEnabled: true,
+      	theme: "dark2",
+      	title:{
+    		text: "年度總積分"
+    	},
+      	toolTip:{
+    		enabled: false,
+    		shared:false
+    	},  
+      	data: [{
+    		type: "line",
+    		showInLegend: true,
+    		name: "得分",
+	    	markerType: "square",
+	    	color: "#F08080",
+	    	dataPoints: [
+					{ x: 10, y: 23, label:"2015" },
+					{ x: 20, y: 39, label:"2016" },
+					{ x: 30, y: 34, label:"2017" },
+					{ x: 40, y: 28, label:"2018" },
+					{ x: 50, y: 35, label:"2019" },
+					{ x: 60, y: 40, label:"2020" },
+					{ x: 70, y: 48, label:"2021" },
+	    	]
+	    },
+	    {
+		    type: "line",
+	    	showInLegend: true,
+		    name: "入球",
+		    lineDashType: "dash",
+		    dataPoints: [
+					{ x: 10, y: 13},
+					{ x: 20, y: 20},
+					{ x: 30, y: 18},
+					{ x: 40, y: 15},
+					{ x: 50, y: 19},
+					{ x: 60, y: 22},
+					{ x: 70, y: 25},
+		    ]
+	    }]
+      });
+        chart.render();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Chart_bg (Rectangle) -->
+      <div id="u0" class="ax_default box_2" data-label="Chart_bg">
+        <div id="u0_div" class=""></div>
+        <div id="u0_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Score_bg (Rectangle)
+      <div id="u1" class="ax_default box_2" data-label="Score_bg">
+        <div id="u1_div" class=""></div>
+        <div id="u1_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div> -->
+
+      <!-- Score_G (Image)
+      <div id="u2" class="ax_default image" data-label="Score_G">
+        <img id="u2_img" class="img " src="images/page_a8/score_g_u2.svg"/>
+        <div id="u2_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div> -->
+
+      <!-- Top Menu_M (Group) -->
+      <div id="u3" class="ax_default ax_default_unplaced" data-label="Top Menu_M" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Dynamic Panel) -->
+        <div id="u4" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+          <div id="u4_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u4_state0_content" class="panel_state_content">
+
+              <!-- 1ST SUB (Group) -->
+              <div id="u5" class="ax_default ax_default_unplaced" data-label="1ST SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u6" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u6_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u6_state0_content" class="panel_state_content">
+
+                      <!-- HOME_SUBMENU (Group) -->
+                      <div id="u7" class="ax_default ax_default_unplaced ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u8" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u8_div" class=""></div>
+                          <div id="u8_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u9" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u9_div" class=""></div>
+                          <div id="u9_text" class="text ">
+                            <p><span>&nbsp;簡介</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u10" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u10_div" class=""></div>
+                          <div id="u10_text" class="text ">
+                            <p><span>&nbsp;如何應用</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u11" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u11_img" class="img " src="resources/images/transparent.gif"/>
+                          <div id="u11_text" class="text ">
+                            <p><span>&nbsp; 為何我們</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u12" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u12_div" class=""></div>
+                          <div id="u12_text" class="text ">
+                            <p><span>&nbsp; 馬上註冊</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u13" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u13_div" class=""></div>
+                          <div id="u13_text" class="text ">
+                            <p><span>&nbsp; 用戶推薦</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u14" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u14_div" class=""></div>
+                          <div id="u14_text" class="text ">
+                            <p><span>&nbsp; 風險披露</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u15" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u15_img" class="img " src="resources/images/transparent.gif"/>
+                  <div id="u15_text" class="text ">
+                    <p><span>首頁</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2ND SUB (Group) -->
+              <div id="u16" class="ax_default ax_default_unplaced" data-label="2ND SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Shape) -->
+                <div id="u17" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u17_img" class="img " src="resources/images/transparent.gif"/>
+                  <div id="u17_text" class="text ">
+                    <p><span>足球AI模組分析</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u18" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u18_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u18_state0_content" class="panel_state_content">
+
+                      <!-- AI_SUBMENU (Group) -->
+                      <div id="u19" class="ax_default ax_default_unplaced ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u20" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u20_div" class=""></div>
+                          <div id="u20_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u21" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u21_img" class="img " src="resources/images/transparent.gif"/>
+                          <div id="u21_text" class="text ">
+                            <p><span>&nbsp;&nbsp; &nbsp; AI模組賽果預測</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u22" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u22_div" class=""></div>
+                          <div id="u22_text" class="text ">
+                            <p><span>&nbsp;綜合網民數據結果</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u23" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u23_img" class="img " src="resources/images/transparent.gif"/>
+                          <div id="u23_text" class="text ">
+                            <p><span>&nbsp;值博率模組分析</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u24" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u24_div" class=""></div>
+                          <div id="u24_text" class="text ">
+                            <p><span>&nbsp; AI模組波膽分析</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u25" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u25_div" class=""></div>
+                          <div id="u25_text" class="text ">
+                            <p><span>&nbsp;AI模組分析大小角</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3RD SUB (Group) -->
+              <div id="u26" class="ax_default ax_default_unplaced" data-label="3RD SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Shape) -->
+                <div id="u27" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u27_img" class="img " src="resources/images/transparent.gif"/>
+                  <div id="u27_text" class="text ">
+                    <p><span>Futra是日精選</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u28" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u28_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u28_state0_content" class="panel_state_content">
+
+                      <!-- FUTRA_SUBMENU (Group) -->
+                      <div id="u29" class="ax_default" data-label="FUTRA_SUBMENU" data-left="0" data-top="0" data-width="390" data-height="144">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u30" class="ax_default box_3">
+                          <div id="u30_div" class=""></div>
+                          <div id="u30_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u31" class="ax_default box_3">
+                          <img id="u31_img" class="img " src="images/page_a8/u31.svg"/>
+                          <div id="u31_text" class="text ">
+                            <p><span>&nbsp;&nbsp; &nbsp; Futra是日精選</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u32" class="ax_default box_3">
+                          <div id="u32_div" class=""></div>
+                          <div id="u32_text" class="text ">
+                            <p><span>爆冷精選</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u33" class="ax_default box_3">
+                          <img id="u33_img" class="img " src="images/page_a8/u33.svg"/>
+                          <div id="u33_text" class="text ">
+                            <p><span>&nbsp;&nbsp;&nbsp; AI模組嚴選最高分隊</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u34" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u34_img" class="img " src="resources/images/transparent.gif"/>
+                <div id="u34_text" class="text ">
+                  <p><span>為何我們</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u35" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u35_img" class="img " src="resources/images/transparent.gif"/>
+                <div id="u35_text" class="text ">
+                  <p><span>聯絡我們</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u36" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u36_img" class="img " src="resources/images/transparent.gif"/>
+                <div id="u36_text" class="text ">
+                  <p><span>會員中心</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u37" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u37_img" class="img " src="resources/images/transparent.gif"/>
+                <div id="u37_text" class="text ">
+                  <p><span>登入</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Menu_M (Group) -->
+        <div id="u38" class="ax_default ax_default_unplaced" data-label="Top Menu_M" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (Placeholder) -->
+          <div id="u39" class="ax_default placeholder ax_default_unplaced" style="display:none; visibility: hidden">
+            <img id="u39_img" class="img " src="resources/images/transparent.gif"/>
+            <div id="u39_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u40" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
+            <div id="u40_div" class=""></div>
+            <div id="u40_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u41" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
+            <div id="u41_div" class=""></div>
+            <div id="u41_text" class="text ">
+              <p><span>MENU</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer (Group) -->
+      <div id="u42" class="ax_default" data-label="footer" data-left="150" data-top="700" data-width="1073" data-height="171">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u43" class="ax_default shape">
+          <img id="u43_img" class="img " src="images/page_a8/u43.svg"/>
+          <div id="u43_text" class="text ">
+            <p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">© 2022 </span><span style="font-family:'Bungee Inline';font-weight:900;color:#5D5D5D;">G10OAL! </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">足球比賽數據網站</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">重要事項：頁面所示的賠率及其他數據謹供參考，所有賠率資料以</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">香港賽馬會網站</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">為準。</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">*</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">外圍莊家賠率只供參考比較之用，請不要參與外圍投注，詳情參閱「 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">非法賭博</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">」。</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">已收錄</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 57152 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">賽事賠率數據</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">問題</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#FFFFFF;"> </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">· </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">查詢</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#FFFFFF;"> </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">· </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">意見</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">&nbsp;· </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u44" class="ax_default paragraph">
+          <div id="u44_div" class=""></div>
+          <div id="u44_text" class="text ">
+            <p><span>香港賽馬會網站</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u45" class="ax_default paragraph">
+          <div id="u45_div" class=""></div>
+          <div id="u45_text" class="text ">
+            <p><span>非法賭博</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u46" class="ax_default paragraph">
+          <div id="u46_div" class=""></div>
+          <div id="u46_text" class="text ">
+            <p><span>問題</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u47" class="ax_default paragraph">
+          <div id="u47_div" class=""></div>
+          <div id="u47_text" class="text ">
+            <p><span>查詢</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u48" class="ax_default paragraph">
+          <div id="u48_div" class=""></div>
+          <div id="u48_text" class="text ">
+            <p><span>意見</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u49" class="ax_default icon">
+          <img id="u49_img" class="img " src="images/page_a8/u49.svg"/>
+          <div id="u49_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u50" class="ax_default icon">
+          <img id="u50_img" class="img " src="images/page_a8/u50.svg"/>
+          <div id="u50_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button (Group) -->
+      <div id="u51" class="ax_default" data-label="Button" data-left="828" data-top="560" data-width="262" data-height="40">
+
+        <!-- AI_Button (Rectangle) -->
+        <div id="u52" class="ax_default box_3" data-label="AI_Button">
+          <div id="u52_div" class=""></div>
+          <div id="u52_text" class="text ">
+            <p><span>足球AI模組分析 &gt;&gt;&gt;</span></p>
+          </div>
+        </div>
+
+        <!-- Button_HotSpot (Hot Spot) -->
+        <div id="u53" class="ax_default" data-label="Button_HotSpot">
+        </div>
+      </div>
+
+      <!-- Table_rtg (Rectangle) -->
+      <div id="u54" class="ax_default box_2" data-label="Table_rtg">
+        <div id="u54_div" class=""></div>
+        <div id="u54_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Best_db (Group) -->
+      <div id="u55" class="ax_default" data-label="Best_db" data-left="245" data-top="271" data-width="430" data-height="40">
+
+        <!-- Best_Repeater (Repeater) -->
+        <div id="u56" class="ax_default" data-label="Best_Repeater">
+          <script id="u56_script" type="axure-repeater-template" data-label="Best_Repeater">
+
+            <!-- Predict_menu (Droplist) -->
+            <div id="u57" class="ax_default droplist u57" data-label="Predict_menu">
+              <div id="u57_div" class="u57_div"></div>
+              <select id="u57_input" class="u57_input">
+                <option class="u57_input_option" value="預測結果選擇">預測結果選擇</option>
+                <option class="u57_input_option" value="主勝">主勝</option>
+                <option class="u57_input_option" value="客勝">客勝</option>
+                <option class="u57_input_option" value="和局">和局</option>
+                <option class="u57_input_option" value="總角球大">總角球大</option>
+                <option class="u57_input_option" value="總角球小">總角球小</option>
+                <option class="u57_input_option" value="總入球大">總入球大</option>
+                <option class="u57_input_option" value="總入球小">總入球小</option>
+                <option class="u57_input_option" value="讓球主客和(主隊勝)">讓球主客和(主隊勝)</option>
+                <option class="u57_input_option" value="讓球主客和(和局)">讓球主客和(和局)</option>
+                <option class="u57_input_option" value="讓球主客和(客隊勝)">讓球主客和(客隊勝)</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 0 )">波膽 ( 0 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 0 )">波膽 ( 1 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 0 )">波膽 ( 2 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 1 )">波膽 ( 2 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 0 )">波膽 ( 3 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 1 )">波膽 ( 3 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 2 )">波膽 ( 3 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 0 )">波膽 ( 4 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 1 )">波膽 ( 4 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 2 )">波膽 ( 4 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 5 - 1 )">波膽 ( 5 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 5 - 2 )">波膽 ( 5 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 1 )">波膽 ( 0 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 2 )">波膽 ( 0 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 2 )">波膽 ( 1 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 3 )">波膽 ( 0 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 3 )">波膽 ( 1 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 3 )">波膽 ( 2 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 4 )">波膽 ( 0 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 4 )">波膽 ( 1 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 4 )">波膽 ( 2 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 5 )">波膽 ( 1 - 5 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 5 )">波膽 ( 2 - 5 )</option>
+                <option class="u57_input_option" value="波膽 ( 主隊其他 )">波膽 ( 主隊其他 )</option>
+                <option class="u57_input_option" value="波膽 ( 客隊其他 )">波膽 ( 客隊其他 )</option>
+              </select>
+            </div>
+
+            <!-- bold_0a (Rectangle) -->
+            <div id="u58" class="ax_default paragraph u58" data-label="bold_0a">
+              <div id="u58_div" class="u58_div"></div>
+              <div id="u58_text" class="text u58_text">
+                <p><span>俄羅斯超級聯賽羅斯托夫 PFC索契</span></p>
+              </div>
+            </div>
+          </script>
+          <div id="u56-1" class="preeval" style="width: 430px; height: 40px;">
+
+            <!-- Predict_menu (Droplist) -->
+            <div id="u57-1" class="ax_default droplist u57" data-label="Predict_menu" style="width: 170px; height: 40px; left: 260px; top: 0px;visibility: inherit">
+              <div id="u57-1_div" class="u57_div" style="width: 170px; height: 40px;visibility: inherit"></div>
+              <select id="u57-1_input" class="u57_input">
+                <option class="u57_input_option" value="預測結果選擇">預測結果選擇</option>
+                <option class="u57_input_option" value="主勝">主勝</option>
+                <option class="u57_input_option" value="客勝">客勝</option>
+                <option class="u57_input_option" value="和局">和局</option>
+                <option class="u57_input_option" value="總角球大">總角球大</option>
+                <option class="u57_input_option" value="總角球小">總角球小</option>
+                <option class="u57_input_option" value="總入球大">總入球大</option>
+                <option class="u57_input_option" value="總入球小">總入球小</option>
+                <option class="u57_input_option" value="讓球主客和(主隊勝)">讓球主客和(主隊勝)</option>
+                <option class="u57_input_option" value="讓球主客和(和局)">讓球主客和(和局)</option>
+                <option class="u57_input_option" value="讓球主客和(客隊勝)">讓球主客和(客隊勝)</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 0 )">波膽 ( 0 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 0 )">波膽 ( 1 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 0 )">波膽 ( 2 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 1 )">波膽 ( 2 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 0 )">波膽 ( 3 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 1 )">波膽 ( 3 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 3 - 2 )">波膽 ( 3 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 0 )">波膽 ( 4 - 0 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 1 )">波膽 ( 4 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 4 - 2 )">波膽 ( 4 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 5 - 1 )">波膽 ( 5 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 5 - 2 )">波膽 ( 5 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 1 )">波膽 ( 0 - 1 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 2 )">波膽 ( 0 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 2 )">波膽 ( 1 - 2 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 3 )">波膽 ( 0 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 3 )">波膽 ( 1 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 3 )">波膽 ( 2 - 3 )</option>
+                <option class="u57_input_option" value="波膽 ( 0 - 4 )">波膽 ( 0 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 4 )">波膽 ( 1 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 4 )">波膽 ( 2 - 4 )</option>
+                <option class="u57_input_option" value="波膽 ( 1 - 5 )">波膽 ( 1 - 5 )</option>
+                <option class="u57_input_option" value="波膽 ( 2 - 5 )">波膽 ( 2 - 5 )</option>
+                <option class="u57_input_option" value="波膽 ( 主隊其他 )">波膽 ( 主隊其他 )</option>
+                <option class="u57_input_option" value="波膽 ( 客隊其他 )">波膽 ( 客隊其他 )</option>
+              </select>
+            </div>
+
+            <!-- bold_0a (Rectangle) -->
+            <div id="u58-1" class="ax_default paragraph u58" data-label="bold_0a" style="width: 260px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u58-1_div" class="u58_div" style="width: 260px; height: 40px;visibility: inherit"></div>
+              <div id="u58-1_text" class="text u58_text" style="visibility: inherit">
+                <p><span>俄羅斯超級聯賽羅斯托夫 PFC索契</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Best (Group) -->
+      <div id="u59" class="ax_default" data-label="Best" data-left="150" data-top="231" data-width="525" data-height="80">
+
+        <!-- Icon (Group) -->
+        <div id="u60" class="ax_default" data-label="Icon" data-left="150" data-top="271" data-width="95" data-height="40">
+
+          <!-- Icon_rtg (Rectangle) -->
+          <div id="u61" class="ax_default paragraph" data-label="Icon_rtg">
+            <div id="u61_div" class=""></div>
+            <div id="u61_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Medal_icon (Shape) -->
+          <div id="u62" class="ax_default icon" data-label="Medal_icon">
+            <img id="u62_img" class="img " src="images/page_a8/medal_icon_u62.svg"/>
+            <div id="u62_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Items_rtg (Rectangle) -->
+        <div id="u63" class="ax_default box_3" data-label="Items_rtg">
+          <div id="u63_div" class=""></div>
+          <div id="u63_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Predict (Rectangle) -->
+        <div id="u64" class="ax_default paragraph" data-label="Predict">
+          <div id="u64_div" class=""></div>
+          <div id="u64_text" class="text ">
+            <p><span>預測結果</span></p>
+          </div>
+        </div>
+
+        <!-- Game (Rectangle) -->
+        <div id="u65" class="ax_default paragraph" data-label="Game">
+          <div id="u65_div" class=""></div>
+          <div id="u65_text" class="text ">
+            <p><span>比賽場次</span></p>
+          </div>
+        </div>
+
+        <!-- Items (Rectangle) -->
+        <div id="u66" class="ax_default paragraph" data-label="Items">
+          <div id="u66_div" class=""></div>
+          <div id="u66_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team_G (Image) -->
+      <div id="u67" class="ax_default image" data-label="Team_G">
+        <img id="u67_img" class="img " src="images/page_a8/team_g_u67.png"/>
+        <div id="u67_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Header (Rectangle) -->
+      <div id="u68" class="ax_default box_2" data-label="Header">
+        <div id="u68_div" class=""></div>
+        <div id="u68_text" class="text ">
+          <p><span>AI模組嚴選最高分球隊 – 羅斯托夫 PFC索契</span></p>
+        </div>
+      </div>
+      <div id="gauge" class="gauge"></div>
+      <!-- NAVIGATION BAR (Group) -->
+      <div id="u69" class="ax_default" data-label="NAVIGATION BAR" data-left="1" data-top="0" data-width="1364" data-height="210">
+
+        <!-- Unnamed (Placeholder) -->
+        <div id="u70" class="ax_default placeholder">
+          <img id="u70_img" class="img " src="images/page_a8/u70.svg"/>
+          <div id="u70_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u71" class="ax_default box_1">
+          <div id="u71_div" class=""></div>
+          <div id="u71_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u72" class="ax_default box_3">
+          <div id="u72_div" class=""></div>
+          <div id="u72_text" class="text ">
+            <p><span>首頁</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u73" class="ax_default box_3">
+          <div id="u73_div" class=""></div>
+          <div id="u73_text" class="text ">
+            <p><span>足球AI模組分析</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u74" class="ax_default box_3">
+          <div id="u74_div" class=""></div>
+          <div id="u74_text" class="text ">
+            <p><span>Futra是日精選</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u75" class="ax_default box_3">
+          <div id="u75_div" class=""></div>
+          <div id="u75_text" class="text ">
+            <p><span>為何我們</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u76" class="ax_default box_3">
+          <div id="u76_div" class=""></div>
+          <div id="u76_text" class="text ">
+            <p><span>聯絡我們</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u77" class="ax_default box_3">
+          <div id="u77_div" class=""></div>
+          <div id="u77_text" class="text ">
+            <p><span>會員中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u78" class="ax_default box_3">
+          <div id="u78_div" class=""></div>
+          <div id="u78_text" class="text ">
+            <p><span>登入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Dynamic Panel) -->
+        <div id="u79" class="ax_default">
+          <div id="u79_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u79_state0_content" class="panel_state_content">
+
+              <!-- HOME_SUBMENU (Group) -->
+              <div id="u80" class="ax_default ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="104" data-height="168">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u81" class="ax_default box_3">
+                  <div id="u81_div" class=""></div>
+                  <div id="u81_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u82" class="ax_default box_3">
+                  <div id="u82_div" class=""></div>
+                  <div id="u82_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 簡介</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u83" class="ax_default box_3">
+                  <div id="u83_div" class=""></div>
+                  <div id="u83_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 如何應用</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u84" class="ax_default box_3">
+                  <img id="u84_img" class="img " src="images/page_a8/u84.svg"/>
+                  <div id="u84_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 為何我們</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u85" class="ax_default box_3">
+                  <div id="u85_div" class=""></div>
+                  <div id="u85_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 馬上註冊</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u86" class="ax_default box_3">
+                  <div id="u86_div" class=""></div>
+                  <div id="u86_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 用戶推薦</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u87" class="ax_default box_3">
+                  <div id="u87_div" class=""></div>
+                  <div id="u87_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 風險披露</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Dynamic Panel) -->
+        <div id="u88" class="ax_default">
+          <div id="u88_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u88_state0_content" class="panel_state_content">
+
+              <!-- AI_SUBMENU (Group) -->
+              <div id="u89" class="ax_default ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="121" data-height="140">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u90" class="ax_default box_3">
+                  <div id="u90_div" class=""></div>
+                  <div id="u90_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u91" class="ax_default box_3">
+                  <div id="u91_div" class=""></div>
+                  <div id="u91_text" class="text ">
+                    <p><span>AI模組賽果預測</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u92" class="ax_default box_3">
+                  <div id="u92_div" class=""></div>
+                  <div id="u92_text" class="text ">
+                    <p><span>綜合網民數據結果</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u93" class="ax_default box_3">
+                  <img id="u93_img" class="img " src="images/page_a8/u84.svg"/>
+                  <div id="u93_text" class="text ">
+                    <p><span>值博率模組分析</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u94" class="ax_default box_3">
+                  <div id="u94_div" class=""></div>
+                  <div id="u94_text" class="text ">
+                    <p><span>AI模組波膽分析</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u95" class="ax_default box_3">
+                  <div id="u95_div" class=""></div>
+                  <div id="u95_text" class="text ">
+                    <p><span>AI模組分析大小角</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Dynamic Panel) -->
+        <div id="u96" class="ax_default">
+          <div id="u96_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u96_state0_content" class="panel_state_content">
+
+              <!-- Futra_SUBMENU (Group) -->
+              <div id="u97" class="ax_default ax_default_hidden" data-label="Futra_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="135" data-height="84">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u98" class="ax_default box_3">
+                  <div id="u98_div" class=""></div>
+                  <div id="u98_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u99" class="ax_default box_3">
+                  <div id="u99_div" class=""></div>
+                  <div id="u99_text" class="text ">
+                    <p><span>&nbsp;Futra是日精選</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u100" class="ax_default box_3">
+                  <div id="u100_div" class=""></div>
+                  <div id="u100_text" class="text ">
+                    <p><span>&nbsp;&nbsp; &nbsp; 爆冷精選</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u101" class="ax_default box_3">
+                  <img id="u101_img" class="img " src="images/page_a8/u101.svg"/>
+                  <div id="u101_text" class="text ">
+                    <p><span>AI模組嚴選最高分隊</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+    <div id="chartContainer" class="chartContainer"></div>
+    <script src="files/page_a8/canvasjs.min.js"></script>
+    <script src="files/page_a8/gauge.js"></script>
+  </body>
+</html>
