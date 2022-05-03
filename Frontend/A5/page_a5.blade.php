@@ -4,2863 +4,269 @@
     <title>page A5</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
-    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
-    <link href="files/page_a5/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/footballui/public/frontend/resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="/footballui/public/frontend/data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="/footballui/public/frontend/files/page_a5/styles.css" type="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Source+Code+Pro" type="text/css" rel="stylesheet"/>
-    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
-    <script src="resources/scripts/axure/axQuery.js"></script>
-    <script src="resources/scripts/axure/globals.js"></script>
-    <script src="resources/scripts/axutils.js"></script>
-    <script src="resources/scripts/axure/annotation.js"></script>
-    <script src="resources/scripts/axure/axQuery.std.js"></script>
-    <script src="resources/scripts/axure/doc.js"></script>
-    <script src="resources/scripts/messagecenter.js"></script>
-    <script src="resources/scripts/axure/events.js"></script>
-    <script src="resources/scripts/axure/recording.js"></script>
-    <script src="resources/scripts/axure/action.js"></script>
-    <script src="resources/scripts/axure/expr.js"></script>
-    <script src="resources/scripts/axure/geometry.js"></script>
-    <script src="resources/scripts/axure/flyout.js"></script>
-    <script src="resources/scripts/axure/model.js"></script>
-    <script src="resources/scripts/axure/repeater.js"></script>
-    <script src="resources/scripts/axure/sto.js"></script>
-    <script src="resources/scripts/axure/utils.temp.js"></script>
-    <script src="resources/scripts/axure/variables.js"></script>
-    <script src="resources/scripts/axure/drag.js"></script>
-    <script src="resources/scripts/axure/move.js"></script>
-    <script src="resources/scripts/axure/visibility.js"></script>
-    <script src="resources/scripts/axure/style.js"></script>
-    <script src="resources/scripts/axure/adaptive.js"></script>
-    <script src="resources/scripts/axure/tree.js"></script>
-    <script src="resources/scripts/axure/init.temp.js"></script>
-    <script src="resources/scripts/axure/legacy.js"></script>
-    <script src="resources/scripts/axure/viewer.js"></script>
-    <script src="resources/scripts/axure/math.js"></script>
-    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
-    <script src="data/document.js"></script>
-    <script src="files/page_a5/data.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/axQuery.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/globals.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axutils.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/annotation.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/axQuery.std.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/doc.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/messagecenter.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/events.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/recording.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/action.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/expr.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/geometry.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/flyout.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/model.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/repeater.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/sto.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/utils.temp.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/variables.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/drag.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/move.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/visibility.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/style.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/adaptive.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/tree.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/init.temp.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/legacy.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/viewer.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/math.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="/footballui/public/frontend/data/document.js"></script>
+    <script src="/footballui/public/frontend/files/page_a5/data.js"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+      $axure.utils.getTransparentGifPath = function() { return '/footballui/public/frontend/resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return '/footballui/public/frontend/resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return '/footballui/public/frontend/resources/reload.html'; };
     </script>
   </head>
   <body>
     <div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u668" class="ax_default box_2">
-        <div id="u668_div" class=""></div>
-        <div id="u668_text" class="text ">
-          <p><span style="font-family:&quot;Rockwell-Regular&quot;, &quot;Rockwell&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Group) -->
-      <div id="u669" class="ax_default" data-left="423" data-top="621" data-width="514" data-height="1302">
-
-        <!-- Unnamed (Repeater) -->
-        <div id="u670" class="ax_default">
-          <script id="u670_script" type="axure-repeater-template">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671" class="ax_default u671" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672" class="ax_default box_3 u672">
-                <div id="u672_div" class="u672_div"></div>
-                <div id="u672_text" class="text u672_text">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673" class="ax_default box_3 u673">
-                <div id="u673_div" class="u673_div"></div>
-                <div id="u673_text" class="text u673_text">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674" class="ax_default box_3 u674">
-                <div id="u674_div" class="u674_div"></div>
-                <div id="u674_text" class="text u674_text">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675" class="ax_default box_3 u675">
-                <img id="u675_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675_text" class="text u675_text">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676" class="ax_default box_3 u676">
-                <div id="u676_div" class="u676_div"></div>
-                <div id="u676_text" class="text u676_text">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677" class="ax_default box_3 u677">
-                <div id="u677_div" class="u677_div"></div>
-                <div id="u677_text" class="text u677_text">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678" class="ax_default box_3 u678">
-                <div id="u678_div" class="u678_div"></div>
-                <div id="u678_text" class="text u678_text">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679" class="ax_default box_3 u679">
-                <div id="u679_div" class="u679_div"></div>
-                <div id="u679_text" class="text u679_text">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680" class="ax_default box_3 u680">
-                <div id="u680_div" class="u680_div"></div>
-                <div id="u680_text" class="text u680_text">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681" class="ax_default box_3 u681">
-                <div id="u681_div" class="u681_div"></div>
-                <div id="u681_text" class="text u681_text">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682" class="ax_default box_3 u682">
-                <div id="u682_div" class="u682_div"></div>
-                <div id="u682_text" class="text u682_text">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683" class="ax_default box_3 u683">
-                <img id="u683_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683_text" class="text u683_text">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684" class="ax_default box_3 u684">
-                <div id="u684_div" class="u684_div"></div>
-                <div id="u684_text" class="text u684_text">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </script>
-          <div id="u670-1" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-1" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-1" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-1_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-1_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-1" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-1_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-1_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-1" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-1_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-1_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-1" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-1_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-1_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-1" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-1_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-1_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-1" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-1_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-1_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-1" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-1_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-1_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-1" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-1_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-1_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-1" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-1_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-1_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-1" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-1_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-1_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-1" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-1_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-1_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-1" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-1_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-1_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-1" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-1_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-1_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-2" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-2" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-2" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-2_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-2_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-2" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-2_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-2_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-2" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-2_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-2_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-2" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-2_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-2_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-2" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-2_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-2_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-2" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-2_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-2_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-2" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-2_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-2_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-2" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-2_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-2_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-2" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-2_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-2_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-2" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-2_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-2_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-2" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-2_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-2_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-2" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-2_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-2_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-2" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-2_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-2_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-3" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-3" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-3" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-3_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-3_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-3" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-3_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-3_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-3" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-3_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-3_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-3" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-3_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-3_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-3" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-3_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-3_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-3" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-3_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-3_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-3" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-3_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-3_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-3" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-3_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-3_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-3" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-3_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-3_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-3" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-3_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-3_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-3" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-3_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-3_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-3" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-3_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-3_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-3" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-3_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-3_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-4" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-4" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-4" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-4_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-4_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-4" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-4_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-4_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-4" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-4_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-4_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-4" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-4_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-4_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-4" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-4_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-4_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-4" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-4_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-4_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-4" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-4_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-4_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-4" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-4_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-4_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-4" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-4_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-4_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-4" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-4_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-4_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-4" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-4_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-4_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-4" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-4_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-4_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-4" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-4_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-4_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-5" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-5" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-5" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-5_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-5_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-5" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-5_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-5_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-5" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-5_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-5_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-5" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-5_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-5_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-5" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-5_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-5_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-5" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-5_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-5_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-5" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-5_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-5_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-5" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-5_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-5_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-5" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-5_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-5_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-5" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-5_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-5_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-5" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-5_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-5_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-5" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-5_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-5_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-5" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-5_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-5_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-6" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-6" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-6" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-6_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-6_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-6" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-6_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-6_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-6" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-6_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-6_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-6" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-6_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-6_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-6" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-6_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-6_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-6" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-6_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-6_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-6" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-6_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-6_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-6" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-6_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-6_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-6" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-6_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-6_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-6" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-6_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-6_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-6" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-6_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-6_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-6" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-6_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-6_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-6" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-6_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-6_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-7" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-7" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-7" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-7_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-7_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-7" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-7_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-7_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-7" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-7_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-7_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-7" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-7_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-7_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-7" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-7_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-7_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-7" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-7_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-7_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-7" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-7_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-7_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-7" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-7_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-7_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-7" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-7_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-7_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-7" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-7_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-7_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-7" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-7_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-7_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-7" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-7_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-7_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-7" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-7_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-7_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-8" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-8" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-8" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-8_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-8_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-8" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-8_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-8_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-8" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-8_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-8_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-8" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-8_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-8_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-8" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-8_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-8_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-8" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-8_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-8_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-8" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-8_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-8_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-8" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-8_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-8_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-8" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-8_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-8_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-8" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-8_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-8_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-8" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-8_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-8_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-8" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-8_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-8_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-8" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-8_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-8_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-9" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-9" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-9" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-9_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-9_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-9" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-9_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-9_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-9" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-9_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-9_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-9" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-9_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-9_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-9" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-9_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-9_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-9" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-9_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-9_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-9" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-9_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-9_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-9" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-9_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-9_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-9" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-9_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-9_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-9" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-9_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-9_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-9" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-9_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-9_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-9" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-9_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-9_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-9" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-9_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-9_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u670-10" class="preeval" style="width: 514px; height: 126px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u671-10" class="ax_default u671" style="visibility: inherit" data-left="0" data-top="0" data-width="514" data-height="126">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u672-10" class="ax_default box_3 u672" style="width: 78px; height: 42px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u672-10_div" class="u672_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u672-10_text" class="text u672_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u673-10" class="ax_default box_3 u673" style="width: 78px; height: 42px; left: 196px; top: 42px;visibility: inherit">
-                <div id="u673-10_div" class="u673_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u673-10_text" class="text u673_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u674-10" class="ax_default box_3 u674" style="width: 78px; height: 42px; left: 196px; top: 84px;visibility: inherit">
-                <div id="u674-10_div" class="u674_div" style="width: 78px; height: 42px;visibility: inherit"></div>
-                <div id="u674-10_text" class="text u674_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u675-10" class="ax_default box_3 u675" style="width: 196px; height: 126px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u675-10_img" class="img u675_img" src="images/page_a5/u675.svg"/>
-                <div id="u675-10_text" class="text u675_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u676-10" class="ax_default box_3 u676" style="width: 80px; height: 42px; left: 274px; top: 42px;visibility: inherit">
-                <div id="u676-10_div" class="u676_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u676-10_text" class="text u676_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u677-10" class="ax_default box_3 u677" style="width: 80px; height: 42px; left: 274px; top: 0px;visibility: inherit">
-                <div id="u677-10_div" class="u677_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u677-10_text" class="text u677_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u678-10" class="ax_default box_3 u678" style="width: 80px; height: 42px; left: 274px; top: 84px;visibility: inherit">
-                <div id="u678-10_div" class="u678_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u678-10_text" class="text u678_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u679-10" class="ax_default box_3 u679" style="width: 80px; height: 42px; left: 354px; top: 0px;visibility: inherit">
-                <div id="u679-10_div" class="u679_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u679-10_text" class="text u679_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u680-10" class="ax_default box_3 u680" style="width: 80px; height: 42px; left: 354px; top: 42px;visibility: inherit">
-                <div id="u680-10_div" class="u680_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u680-10_text" class="text u680_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u681-10" class="ax_default box_3 u681" style="width: 80px; height: 42px; left: 354px; top: 84px;visibility: inherit">
-                <div id="u681-10_div" class="u681_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u681-10_text" class="text u681_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u682-10" class="ax_default box_3 u682" style="width: 80px; height: 42px; left: 434px; top: 0px;visibility: inherit">
-                <div id="u682-10_div" class="u682_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u682-10_text" class="text u682_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u683-10" class="ax_default box_3 u683" style="width: 80px; height: 42px; left: 434px; top: 42px;visibility: inherit">
-                <img id="u683-10_img" class="img u683_img" src="images/page_a5/u683.svg"/>
-                <div id="u683-10_text" class="text u683_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u684-10" class="ax_default box_3 u684" style="width: 80px; height: 42px; left: 434px; top: 84px;visibility: inherit">
-                <div id="u684-10_div" class="u684_div" style="width: 80px; height: 42px;visibility: inherit"></div>
-                <div id="u684-10_text" class="text u684_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Unnamed (Group) -->
-        <div id="u685" class="ax_default" data-left="423" data-top="621" data-width="514" data-height="42">
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u686" class="ax_default box_3">
-            <div id="u686_div" class=""></div>
-            <div id="u686_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u687" class="ax_default box_3">
-            <div id="u687_div" class=""></div>
-            <div id="u687_text" class="text ">
-              <p><span>角球數</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u688" class="ax_default box_3">
-            <div id="u688_div" class=""></div>
-            <div id="u688_text" class="text ">
-              <p><span>最小範圍</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u689" class="ax_default box_3">
-            <div id="u689_div" class=""></div>
-            <div id="u689_text" class="text ">
-              <p><span>最大範圍</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Unnamed (Image) -->
-      <div id="u690" class="ax_default image">
-        <img id="u690_img" class="img " src="images/page_a5/u690.png"/>
-        <div id="u690_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+      <!-- Header (Rectangle) -->
+      <div id="u0" class="ax_default box_2" data-label="Header">
+        <div id="u0_div" class=""></div>
+        <div id="u0_text" class="text ">
+          <p><span style="font-family:&quot;Rockwell Normal&quot;, &quot;Rockwell&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
         </div>
       </div>
 
       <!-- footer (Group) -->
-      <div id="u691" class="ax_default" data-label="footer" data-left="149" data-top="2025" data-width="1073" data-height="171">
+      <div id="u1" class="ax_default" data-label="footer" data-left="150" data-top="1510" data-width="1073" data-height="171">
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u692" class="ax_default shape">
-          <img id="u692_img" class="img " src="images/page_a4/u40.svg"/>
-          <div id="u692_text" class="text ">
-            <p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">© 2022 </span><span style="font-family:'Bungee Inline';font-weight:900;color:#5D5D5D;">G10OAL! </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">足球比賽數據網站</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">重要事項：頁面所示的賠率及其他數據謹供參考，所有賠率資料以</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">香港賽馬會網站</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">為準。</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">*</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">外圍莊家賠率只供參考比較之用，請不要參與外圍投注，詳情參閱「 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">非法賭博</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">」。</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">已收錄</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 57152 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">賽事賠率數據</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">問題</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#FFFFFF;"> </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">· </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">查詢</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#FFFFFF;"> </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">· </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#FFFFFF;">意見</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;">&nbsp;· </span></p>
+        <div id="u2" class="ax_default shape">
+          <img id="u2_img" class="img " src="/footballui/public/frontend/images/page_a5/u2.svg"/>
+          <div id="u2_text" class="text ">
+            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">© 2022 </span><span style="font-family:'Bungee Inline';font-weight:700;font-style:normal;color:#5D5D5D;">G10OAL! </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">足球比賽數據網站</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">重要事項：頁面所示的賠率及其他數據謹供參考，所有賠率資料以</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">香港賽馬會網站</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">為準。</span></p><p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">*</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">外圍莊家賠率只供參考比較之用，請不要參與外圍投注，詳情參閱「 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">非法賭博</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 」。</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">已收錄</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 57152 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">賽事賠率數據</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">問題</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#061E3D;"> · </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">查詢</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#061E3D;"> · </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">意見</span></p>
           </div>
         </div>
 
-        <!-- Unnamed (Rectangle) -->
-        <div id="u693" class="ax_default paragraph">
-          <div id="u693_div" class=""></div>
-          <div id="u693_text" class="text ">
-            <p><span>香港賽馬會網站</span></p>
-          </div>
+        <!-- illegal_gambling_hotSpot (Hot Spot) -->
+        <div id="u3" class="ax_default" data-label="illegal_gambling_hotSpot">
         </div>
 
-        <!-- Unnamed (Rectangle) -->
-        <div id="u694" class="ax_default paragraph">
-          <div id="u694_div" class=""></div>
-          <div id="u694_text" class="text ">
-            <p><span>非法賭博</span></p>
-          </div>
+        <!-- HKJC_hotSpot (Hot Spot) -->
+        <div id="u4" class="ax_default" data-label="HKJC_hotSpot">
         </div>
 
-        <!-- Unnamed (Rectangle) -->
-        <div id="u695" class="ax_default paragraph">
-          <div id="u695_div" class=""></div>
-          <div id="u695_text" class="text ">
-            <p><span>問題</span></p>
-          </div>
+        <!-- 意見 (Hot Spot) -->
+        <div id="u5" class="ax_default" data-label="意見">
         </div>
 
-        <!-- Unnamed (Rectangle) -->
-        <div id="u696" class="ax_default paragraph">
-          <div id="u696_div" class=""></div>
-          <div id="u696_text" class="text ">
-            <p><span>查詢</span></p>
-          </div>
+        <!-- 查詢 (Hot Spot) -->
+        <div id="u6" class="ax_default" data-label="查詢">
         </div>
 
-        <!-- Unnamed (Rectangle) -->
-        <div id="u697" class="ax_default paragraph">
-          <div id="u697_div" class=""></div>
-          <div id="u697_text" class="text ">
-            <p><span>意見</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Shape) -->
-        <div id="u698" class="ax_default icon">
-          <img id="u698_img" class="img " src="images/page_a4/u46.svg"/>
-          <div id="u698_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Shape) -->
-        <div id="u699" class="ax_default icon">
-          <img id="u699_img" class="img " src="images/page_a4/u47.svg"/>
-          <div id="u699_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+        <!-- 問題 (Hot Spot) -->
+        <div id="u7" class="ax_default" data-label="問題">
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u700" class="ax_default box_2 ax_default_unplaced" style="display:none; visibility: hidden">
-        <div id="u700_div" class=""></div>
-        <div id="u700_text" class="text ">
-          <p><span style="font-family:&quot;Rockwell-Regular&quot;, &quot;Rockwell&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
+      <div id="u8" class="ax_default box_2 ax_default_unplaced" style="display:none; visibility: hidden">
+        <div id="u8_div" class=""></div>
+        <div id="u8_text" class="text ">
+          <p><span style="font-family:&quot;Rockwell Normal&quot;, &quot;Rockwell&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u701" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-        <!-- Unnamed (Repeater) -->
-        <div id="u702" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
-          <script id="u702_script" type="axure-repeater-template">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703" class="ax_default u703" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704" class="ax_default box_3 u704">
-                <div id="u704_div" class="u704_div"></div>
-                <div id="u704_text" class="text u704_text">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705" class="ax_default box_3 u705">
-                <div id="u705_div" class="u705_div"></div>
-                <div id="u705_text" class="text u705_text">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706" class="ax_default box_3 u706">
-                <div id="u706_div" class="u706_div"></div>
-                <div id="u706_text" class="text u706_text">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707" class="ax_default box_3 u707">
-                <img id="u707_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707_text" class="text u707_text">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708" class="ax_default box_3 u708">
-                <div id="u708_div" class="u708_div"></div>
-                <div id="u708_text" class="text u708_text">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709" class="ax_default box_3 u709">
-                <div id="u709_div" class="u709_div"></div>
-                <div id="u709_text" class="text u709_text">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710" class="ax_default box_3 u710">
-                <div id="u710_div" class="u710_div"></div>
-                <div id="u710_text" class="text u710_text">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711" class="ax_default box_3 u711">
-                <div id="u711_div" class="u711_div"></div>
-                <div id="u711_text" class="text u711_text">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712" class="ax_default box_3 u712">
-                <div id="u712_div" class="u712_div"></div>
-                <div id="u712_text" class="text u712_text">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713" class="ax_default box_3 u713">
-                <div id="u713_div" class="u713_div"></div>
-                <div id="u713_text" class="text u713_text">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714" class="ax_default box_3 u714">
-                <div id="u714_div" class="u714_div"></div>
-                <div id="u714_text" class="text u714_text">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715" class="ax_default box_3 u715">
-                <img id="u715_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715_text" class="text u715_text">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716" class="ax_default box_3 u716">
-                <div id="u716_div" class="u716_div"></div>
-                <div id="u716_text" class="text u716_text">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </script>
-          <div id="u702-1" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-1" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-1" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-1_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-1_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-1" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-1_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-1_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-1" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-1_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-1_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-1" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-1_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-1_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-1" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-1_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-1_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-1" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-1_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-1_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-1" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-1_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-1_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-1" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-1_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-1_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-1" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-1_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-1_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-1" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-1_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-1_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-1" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-1_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-1_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-1" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-1_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-1_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-1" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-1_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-1_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-2" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-2" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-2" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-2_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-2_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-2" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-2_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-2_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-2" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-2_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-2_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-2" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-2_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-2_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-2" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-2_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-2_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-2" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-2_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-2_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-2" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-2_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-2_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-2" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-2_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-2_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-2" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-2_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-2_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-2" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-2_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-2_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-2" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-2_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-2_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-2" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-2_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-2_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-2" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-2_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-2_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-3" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-3" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-3" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-3_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-3_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-3" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-3_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-3_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-3" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-3_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-3_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-3" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-3_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-3_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-3" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-3_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-3_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-3" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-3_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-3_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-3" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-3_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-3_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-3" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-3_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-3_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-3" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-3_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-3_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-3" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-3_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-3_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-3" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-3_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-3_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-3" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-3_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-3_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-3" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-3_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-3_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-4" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-4" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-4" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-4_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-4_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-4" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-4_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-4_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-4" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-4_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-4_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-4" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-4_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-4_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-4" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-4_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-4_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-4" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-4_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-4_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-4" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-4_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-4_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-4" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-4_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-4_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-4" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-4_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-4_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-4" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-4_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-4_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-4" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-4_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-4_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-4" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-4_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-4_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-4" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-4_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-4_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-5" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-5" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-5" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-5_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-5_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-5" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-5_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-5_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-5" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-5_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-5_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-5" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-5_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-5_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-5" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-5_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-5_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-5" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-5_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-5_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-5" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-5_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-5_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-5" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-5_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-5_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-5" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-5_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-5_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-5" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-5_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-5_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-5" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-5_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-5_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-5" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-5_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-5_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-5" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-5_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-5_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-6" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-6" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-6" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-6_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-6_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-6" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-6_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-6_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-6" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-6_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-6_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-6" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-6_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-6_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-6" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-6_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-6_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-6" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-6_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-6_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-6" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-6_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-6_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-6" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-6_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-6_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-6" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-6_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-6_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-6" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-6_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-6_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-6" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-6_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-6_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-6" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-6_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-6_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-6" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-6_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-6_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-7" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-7" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-7" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-7_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-7_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-7" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-7_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-7_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-7" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-7_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-7_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-7" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-7_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-7_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-7" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-7_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-7_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-7" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-7_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-7_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-7" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-7_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-7_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-7" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-7_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-7_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-7" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-7_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-7_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-7" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-7_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-7_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-7" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-7_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-7_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-7" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-7_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-7_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-7" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-7_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-7_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-8" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-8" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-8" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-8_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-8_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-8" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-8_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-8_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-8" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-8_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-8_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-8" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-8_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-8_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-8" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-8_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-8_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-8" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-8_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-8_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-8" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-8_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-8_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-8" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-8_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-8_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-8" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-8_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-8_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-8" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-8_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-8_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-8" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-8_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-8_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-8" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-8_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-8_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-8" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-8_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-8_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-9" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-9" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-9" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-9_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-9_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-9" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-9_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-9_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-9" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-9_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-9_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-9" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-9_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-9_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-9" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-9_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-9_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-9" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-9_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-9_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-9" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-9_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-9_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-9" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-9_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-9_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-9" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-9_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-9_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-9" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-9_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-9_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-9" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-9_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-9_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-9" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-9_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-9_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-9" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-9_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-9_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="u702-10" class="preeval" style="width: 367px; height: 93px;">
-
-            <!-- Unnamed (Group) -->
-            <div id="u703-10" class="ax_default u703" style="visibility: inherit" data-left="0" data-top="0" data-width="367" data-height="93">
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u704-10" class="ax_default box_3 u704" style="width: 56px; height: 31px; left: 140px; top: 0px;visibility: inherit">
-                <div id="u704-10_div" class="u704_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u704-10_text" class="text u704_text" style="visibility: inherit">
-                  <p><span>主隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u705-10" class="ax_default box_3 u705" style="width: 56px; height: 31px; left: 140px; top: 31px;visibility: inherit">
-                <div id="u705-10_div" class="u705_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u705-10_text" class="text u705_text" style="visibility: inherit">
-                  <p><span>客隊</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u706-10" class="ax_default box_3 u706" style="width: 56px; height: 31px; left: 140px; top: 62px;visibility: inherit">
-                <div id="u706-10_div" class="u706_div" style="width: 56px; height: 31px;visibility: inherit"></div>
-                <div id="u706-10_text" class="text u706_text" style="visibility: inherit">
-                  <p><span>總角球</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u707-10" class="ax_default box_3 u707" style="width: 140px; height: 93px; left: 0px; top: 0px;visibility: inherit">
-                <img id="u707-10_img" class="img u707_img" src="images/page_a5/u707.svg"/>
-                <div id="u707-10_text" class="text u707_text" style="visibility: inherit">
-                  <p><span>辛尼特 VS 烏法</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u708-10" class="ax_default box_3 u708" style="width: 57px; height: 31px; left: 196px; top: 31px;visibility: inherit">
-                <div id="u708-10_div" class="u708_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u708-10_text" class="text u708_text" style="visibility: inherit">
-                  <p><span>8</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u709-10" class="ax_default box_3 u709" style="width: 57px; height: 31px; left: 196px; top: 0px;visibility: inherit">
-                <div id="u709-10_div" class="u709_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u709-10_text" class="text u709_text" style="visibility: inherit">
-                  <p><span>5</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u710-10" class="ax_default box_3 u710" style="width: 57px; height: 31px; left: 196px; top: 62px;visibility: inherit">
-                <div id="u710-10_div" class="u710_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u710-10_text" class="text u710_text" style="visibility: inherit">
-                  <p><span>13</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u711-10" class="ax_default box_3 u711" style="width: 57px; height: 31px; left: 253px; top: 0px;visibility: inherit">
-                <div id="u711-10_div" class="u711_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u711-10_text" class="text u711_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u712-10" class="ax_default box_3 u712" style="width: 57px; height: 31px; left: 253px; top: 31px;visibility: inherit">
-                <div id="u712-10_div" class="u712_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u712-10_text" class="text u712_text" style="visibility: inherit">
-                  <p><span>2</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u713-10" class="ax_default box_3 u713" style="width: 57px; height: 31px; left: 253px; top: 62px;visibility: inherit">
-                <div id="u713-10_div" class="u713_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u713-10_text" class="text u713_text" style="visibility: inherit">
-                  <p><span>4</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u714-10" class="ax_default box_3 u714" style="width: 57px; height: 31px; left: 310px; top: 0px;visibility: inherit">
-                <div id="u714-10_div" class="u714_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u714-10_text" class="text u714_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u715-10" class="ax_default box_3 u715" style="width: 57px; height: 31px; left: 310px; top: 31px;visibility: inherit">
-                <img id="u715-10_img" class="img u715_img" src="images/page_a5/u715.svg"/>
-                <div id="u715-10_text" class="text u715_text" style="visibility: inherit">
-                  <p><span>10</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Rectangle) -->
-              <div id="u716-10" class="ax_default box_3 u716" style="width: 57px; height: 31px; left: 310px; top: 62px;visibility: inherit">
-                <div id="u716-10_div" class="u716_div" style="width: 57px; height: 31px;visibility: inherit"></div>
-                <div id="u716-10_text" class="text u716_text" style="visibility: inherit">
-                  <p><span>20</span></p>
-                </div>
-              </div>
-            </div>
+      <!-- Footer (Group) -->
+      <div id="u9" class="ax_default ax_default_unplaced" data-label="Footer" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u10" class="ax_default shape ax_default_unplaced" style="display:none; visibility: hidden">
+          <img id="u10_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+          <div id="u10_text" class="text ">
+            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">© 2022 </span><span style="font-family:'Bungee Inline';font-weight:700;font-style:normal;color:#5D5D5D;">G10OAL! </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">足球比賽數據網站</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">重要事項：頁面所示的賠率及其他數據謹供參考，所有賠率資料以</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">香港賽馬會網站</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">為準。</span></p><p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;">*</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">外圍莊家賠率只供參考比較之用，請不要參與外圍投注，詳情參閱「 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">非法賭博</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 」。</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">已收錄</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#5D5D5D;"> 57152 </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#5D5D5D;">賽事賠率數據</span></p><p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">問題</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#061E3D;"> · </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">查詢</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;font-weight:400;color:#061E3D;"> · </span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;font-weight:400;color:#061E3D;">意見</span></p>
           </div>
         </div>
 
-        <!-- Unnamed (Group) -->
-        <div id="u717" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+        <!-- illegal_gambling_hotSpot (Hot Spot) -->
+        <div id="u11" class="ax_default ax_default_unplaced" data-label="illegal_gambling_hotSpot" style="display:none; visibility: hidden">
+        </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u718" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-            <div id="u718_div" class=""></div>
-            <div id="u718_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
+        <!-- HKJC_hotSpot (Hot Spot) -->
+        <div id="u12" class="ax_default ax_default_unplaced" data-label="HKJC_hotSpot" style="display:none; visibility: hidden">
+        </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u719" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-            <div id="u719_div" class=""></div>
-            <div id="u719_text" class="text ">
-              <p><span>角球數</span></p>
-            </div>
-          </div>
+        <!-- 意見 (Hot Spot) -->
+        <div id="u13" class="ax_default ax_default_unplaced" data-label="意見" style="display:none; visibility: hidden">
+        </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u720" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-            <div id="u720_div" class=""></div>
-            <div id="u720_text" class="text ">
-              <p><span>最小範圍</span></p>
-            </div>
-          </div>
+        <!-- 查詢 (Hot Spot) -->
+        <div id="u14" class="ax_default ax_default_unplaced" data-label="查詢" style="display:none; visibility: hidden">
+        </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u721" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-            <div id="u721_div" class=""></div>
-            <div id="u721_text" class="text ">
-              <p><span>最大範圍</span></p>
-            </div>
-          </div>
+        <!-- 問題 (Hot Spot) -->
+        <div id="u15" class="ax_default ax_default_unplaced" data-label="問題" style="display:none; visibility: hidden">
         </div>
       </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u722" class="ax_default image ax_default_unplaced" style="display:none; visibility: hidden">
-        <img id="u722_img" class="img " src="resources/images/transparent.gif"/>
-        <div id="u722_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- footer (Group) -->
-      <div id="u723" class="ax_default ax_default_unplaced" data-label="footer" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u724" class="ax_default shape ax_default_unplaced" style="display:none; visibility: hidden">
-          <img id="u724_img" class="img " src="resources/images/transparent.gif"/>
-          <div id="u724_text" class="text ">
-            <p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">© 2022 </span><span style="font-family:'Bungee Inline';color:#5D5D5D;">G10OAL! </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">足球比賽數據網站</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">重要事項：頁面所示的賠率及其他數據謹供參考，所有賠率資料以</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#FFFFFF;">香港賽馬會網站</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">為準。</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">*外圍莊家賠率只供參考比較之用，請不要參與外圍投注，詳情參閱「</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#FFFFFF;">非法賭博</span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">」。</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#5D5D5D;">已收錄 57152 賽事賠率數據</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#FFFFFF;">問題 </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;">· </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#FFFFFF;">查詢 </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;">· </span><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;color:#FFFFFF;">意見</span></p><p><span style="font-family:&quot;ArialMT&quot;, &quot;Arial&quot;, sans-serif;">&nbsp;· </span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u725" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u725_div" class=""></div>
-          <div id="u725_text" class="text ">
-            <p><span>香港賽馬會網站</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u726" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u726_div" class=""></div>
-          <div id="u726_text" class="text ">
-            <p><span>非法賭博</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u727" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u727_div" class=""></div>
-          <div id="u727_text" class="text ">
-            <p><span>問題</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u728" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u728_div" class=""></div>
-          <div id="u728_text" class="text ">
-            <p><span>查詢</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Rectangle) -->
-        <div id="u729" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u729_div" class=""></div>
-          <div id="u729_text" class="text ">
-            <p><span>意見</span></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Shape) -->
-        <div id="u730" class="ax_default icon ax_default_unplaced" style="display:none; visibility: hidden">
-          <img id="u730_img" class="img " src="resources/images/transparent.gif"/>
-          <div id="u730_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
-        </div>
-
-        <!-- Unnamed (Shape) -->
-        <div id="u731" class="ax_default icon ax_default_unplaced" style="display:none; visibility: hidden">
-          <img id="u731_img" class="img " src="resources/images/transparent.gif"/>
-          <div id="u731_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
-        </div>
-      </div>
+      <!-- Unnamed (NAVIGATION BAR) -->
 
       <!-- NAVIGATION BAR (Group) -->
-      <div id="u732" class="ax_default" data-label="NAVIGATION BAR" data-left="0" data-top="0" data-width="1364" data-height="210">
+      <div id="u17" class="ax_default" data-label="NAVIGATION BAR" data-left="0" data-top="0" data-width="1366" data-height="209">
 
         <!-- Unnamed (Placeholder) -->
-        <div id="u733" class="ax_default placeholder">
-          <img id="u733_img" class="img " src="images/page_a3/u534.svg"/>
-          <div id="u733_text" class="text " style="display:none; visibility: hidden">
+        <div id="u18" class="ax_default placeholder">
+          <img id="u18_img" class="img " src="/footballui/public/frontend/images/page_a5/u18.svg"/>
+          <div id="u18_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u734" class="ax_default box_1">
-          <div id="u734_div" class=""></div>
-          <div id="u734_text" class="text " style="display:none; visibility: hidden">
+        <div id="u19" class="ax_default box_1">
+          <div id="u19_div" class=""></div>
+          <div id="u19_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u735" class="ax_default box_3">
-          <div id="u735_div" class=""></div>
-          <div id="u735_text" class="text ">
+        <div id="u20" class="ax_default box_3">
+          <div id="u20_div" class=""></div>
+          <div id="u20_text" class="text ">
             <p><span>首頁</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u736" class="ax_default box_3">
-          <div id="u736_div" class=""></div>
-          <div id="u736_text" class="text ">
+        <div id="u21" class="ax_default box_3">
+          <div id="u21_div" class=""></div>
+          <div id="u21_text" class="text ">
             <p><span>足球AI模組分析</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u737" class="ax_default box_3">
-          <div id="u737_div" class=""></div>
-          <div id="u737_text" class="text ">
+        <div id="u22" class="ax_default box_3">
+          <div id="u22_div" class=""></div>
+          <div id="u22_text" class="text ">
             <p><span>Futra是日精選</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u738" class="ax_default box_3">
-          <div id="u738_div" class=""></div>
-          <div id="u738_text" class="text ">
+        <div id="u23" class="ax_default box_3">
+          <div id="u23_div" class=""></div>
+          <div id="u23_text" class="text ">
             <p><span>為何我們</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u739" class="ax_default box_3">
-          <div id="u739_div" class=""></div>
-          <div id="u739_text" class="text ">
+        <div id="u24" class="ax_default box_3">
+          <div id="u24_div" class=""></div>
+          <div id="u24_text" class="text ">
             <p><span>聯絡我們</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u740" class="ax_default box_3">
-          <div id="u740_div" class=""></div>
-          <div id="u740_text" class="text ">
+        <div id="u25" class="ax_default box_3">
+          <div id="u25_div" class=""></div>
+          <div id="u25_text" class="text ">
             <p><span>會員中心</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u741" class="ax_default box_3">
-          <div id="u741_div" class=""></div>
-          <div id="u741_text" class="text ">
+        <div id="u26" class="ax_default box_3">
+          <div id="u26_div" class=""></div>
+          <div id="u26_text" class="text ">
             <p><span>登入</span></p>
           </div>
         </div>
 
         <!-- Unnamed (Dynamic Panel) -->
-        <div id="u742" class="ax_default">
-          <div id="u742_state0" class="panel_state" data-label="State 1" style="">
-            <div id="u742_state0_content" class="panel_state_content">
+        <div id="u27" class="ax_default">
+          <div id="u27_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u27_state0_content" class="panel_state_content">
 
               <!-- HOME_SUBMENU (Group) -->
-              <div id="u743" class="ax_default ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="104" data-height="168">
+              <div id="u28" class="ax_default ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="104" data-height="168">
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u744" class="ax_default box_3">
-                  <div id="u744_div" class=""></div>
-                  <div id="u744_text" class="text " style="display:none; visibility: hidden">
+                <div id="u29" class="ax_default box_3">
+                  <div id="u29_div" class=""></div>
+                  <div id="u29_text" class="text " style="display:none; visibility: hidden">
                     <p></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u745" class="ax_default box_3">
-                  <div id="u745_div" class=""></div>
-                  <div id="u745_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 簡介</span></p>
+                <div id="u30" class="ax_default box_3">
+                  <div id="u30_div" class=""></div>
+                  <div id="u30_text" class="text ">
+                    <p><span>簡介</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u746" class="ax_default box_3">
-                  <div id="u746_div" class=""></div>
-                  <div id="u746_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 如何應用</span></p>
+                <div id="u31" class="ax_default box_3">
+                  <div id="u31_div" class=""></div>
+                  <div id="u31_text" class="text ">
+                    <p><span>如何應用</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Shape) -->
-                <div id="u747" class="ax_default box_3">
-                  <img id="u747_img" class="img " src="images/page_a4/u178.svg"/>
-                  <div id="u747_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 為何我們</span></p>
+                <div id="u32" class="ax_default box_3">
+                  <img id="u32_img" class="img " src="/footballui/public/frontend/images/page_a5/u32.svg"/>
+                  <div id="u32_text" class="text ">
+                    <p><span>為何我們</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u748" class="ax_default box_3">
-                  <div id="u748_div" class=""></div>
-                  <div id="u748_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 馬上註冊</span></p>
+                <div id="u33" class="ax_default box_3">
+                  <div id="u33_div" class=""></div>
+                  <div id="u33_text" class="text ">
+                    <p><span>馬上註冊</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u749" class="ax_default box_3">
-                  <div id="u749_div" class=""></div>
-                  <div id="u749_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 用戶推薦</span></p>
+                <div id="u34" class="ax_default box_3">
+                  <div id="u34_div" class=""></div>
+                  <div id="u34_text" class="text ">
+                    <p><span>用戶推薦</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u750" class="ax_default box_3">
-                  <div id="u750_div" class=""></div>
-                  <div id="u750_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 風險披露</span></p>
+                <div id="u35" class="ax_default box_3">
+                  <div id="u35_div" class=""></div>
+                  <div id="u35_text" class="text ">
+                    <p><span>風險披露</span></p>
                   </div>
                 </div>
               </div>
@@ -2869,58 +275,58 @@
         </div>
 
         <!-- Unnamed (Dynamic Panel) -->
-        <div id="u751" class="ax_default">
-          <div id="u751_state0" class="panel_state" data-label="State 1" style="">
-            <div id="u751_state0_content" class="panel_state_content">
+        <div id="u36" class="ax_default">
+          <div id="u36_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u36_state0_content" class="panel_state_content">
 
               <!-- AI_SUBMENU (Group) -->
-              <div id="u752" class="ax_default ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="121" data-height="140">
+              <div id="u37" class="ax_default ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="120" data-height="140">
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u753" class="ax_default box_3">
-                  <div id="u753_div" class=""></div>
-                  <div id="u753_text" class="text " style="display:none; visibility: hidden">
+                <div id="u38" class="ax_default box_3">
+                  <div id="u38_div" class=""></div>
+                  <div id="u38_text" class="text " style="display:none; visibility: hidden">
                     <p></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u754" class="ax_default box_3">
-                  <div id="u754_div" class=""></div>
-                  <div id="u754_text" class="text ">
-                    <p><span>AI模組賽果預測</span></p>
+                <div id="u39" class="ax_default box_3">
+                  <div id="u39_div" class=""></div>
+                  <div id="u39_text" class="text ">
+                    <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組賽果預測</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u755" class="ax_default box_3">
-                  <div id="u755_div" class=""></div>
-                  <div id="u755_text" class="text ">
+                <div id="u40" class="ax_default box_3">
+                  <div id="u40_div" class=""></div>
+                  <div id="u40_text" class="text ">
                     <p><span>綜合網民數據結果</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Shape) -->
-                <div id="u756" class="ax_default box_3">
-                  <img id="u756_img" class="img " src="images/page_a4/u178.svg"/>
-                  <div id="u756_text" class="text ">
+                <div id="u41" class="ax_default box_3">
+                  <img id="u41_img" class="img " src="/footballui/public/frontend/images/page_a5/u41.svg"/>
+                  <div id="u41_text" class="text ">
                     <p><span>值博率模組分析</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u757" class="ax_default box_3">
-                  <div id="u757_div" class=""></div>
-                  <div id="u757_text" class="text ">
-                    <p><span>AI模組波膽分析</span></p>
+                <div id="u42" class="ax_default box_3">
+                  <div id="u42_div" class=""></div>
+                  <div id="u42_text" class="text ">
+                    <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組波膽分析</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u758" class="ax_default box_3">
-                  <div id="u758_div" class=""></div>
-                  <div id="u758_text" class="text ">
-                    <p><span>AI模組分析大小角</span></p>
+                <div id="u43" class="ax_default box_3">
+                  <div id="u43_div" class=""></div>
+                  <div id="u43_text" class="text ">
+                    <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
                   </div>
                 </div>
               </div>
@@ -2929,42 +335,42 @@
         </div>
 
         <!-- Unnamed (Dynamic Panel) -->
-        <div id="u759" class="ax_default">
-          <div id="u759_state0" class="panel_state" data-label="State 1" style="">
-            <div id="u759_state0_content" class="panel_state_content">
+        <div id="u44" class="ax_default">
+          <div id="u44_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u44_state0_content" class="panel_state_content">
 
               <!-- Futra_SUBMENU (Group) -->
-              <div id="u760" class="ax_default ax_default_hidden" data-label="Futra_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="135" data-height="84">
+              <div id="u45" class="ax_default ax_default_hidden" data-label="Futra_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="136" data-height="84">
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u761" class="ax_default box_3">
-                  <div id="u761_div" class=""></div>
-                  <div id="u761_text" class="text " style="display:none; visibility: hidden">
+                <div id="u46" class="ax_default box_3">
+                  <div id="u46_div" class=""></div>
+                  <div id="u46_text" class="text " style="display:none; visibility: hidden">
                     <p></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u762" class="ax_default box_3">
-                  <div id="u762_div" class=""></div>
-                  <div id="u762_text" class="text ">
-                    <p><span>&nbsp;Futra是日精選</span></p>
+                <div id="u47" class="ax_default box_3">
+                  <div id="u47_div" class=""></div>
+                  <div id="u47_text" class="text ">
+                    <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">Futra</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">是日精選</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u763" class="ax_default box_3">
-                  <div id="u763_div" class=""></div>
-                  <div id="u763_text" class="text ">
-                    <p><span>&nbsp;&nbsp; &nbsp; 爆冷精選</span></p>
+                <div id="u48" class="ax_default box_3">
+                  <div id="u48_div" class=""></div>
+                  <div id="u48_text" class="text ">
+                    <p><span>爆冷精選</span></p>
                   </div>
                 </div>
 
                 <!-- Unnamed (Shape) -->
-                <div id="u764" class="ax_default box_3">
-                  <img id="u764_img" class="img " src="images/page_a4/u195.svg"/>
-                  <div id="u764_text" class="text ">
-                    <p><span>AI模組嚴選最高分隊</span></p>
+                <div id="u49" class="ax_default box_3">
+                  <img id="u49_img" class="img " src="/footballui/public/frontend/images/page_a5/u49.svg"/>
+                  <div id="u49_text" class="text ">
+                    <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組嚴選最高分隊</span></p>
                   </div>
                 </div>
               </div>
@@ -2972,283 +378,1563 @@
           </div>
         </div>
       </div>
+      <div id="u16" style="display:none; visibility:hidden;"></div>
 
-      <!-- Unnamed (Dynamic Panel) -->
-      <div id="u765" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
-        <div id="u765_state0" class="panel_state" data-label="State 1" style="">
-          <div id="u765_state0_content" class="panel_state_content">
-
-            <!-- 1ST SUB (Group) -->
-            <div id="u766" class="ax_default ax_default_unplaced" data-label="1ST SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-              <!-- Unnamed (Dynamic Panel) -->
-              <div id="u767" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
-                <div id="u767_state0" class="panel_state" data-label="State 1" style="">
-                  <div id="u767_state0_content" class="panel_state_content">
-
-                    <!-- HOME_SUBMENU (Group) -->
-                    <div id="u768" class="ax_default ax_default_unplaced ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u769" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u769_div" class=""></div>
-                        <div id="u769_text" class="text " style="display:none; visibility: hidden">
-                          <p></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u770" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u770_div" class=""></div>
-                        <div id="u770_text" class="text ">
-                          <p><span>&nbsp;簡介</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u771" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u771_div" class=""></div>
-                        <div id="u771_text" class="text ">
-                          <p><span>&nbsp;如何應用</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Shape) -->
-                      <div id="u772" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <img id="u772_img" class="img " src="resources/images/transparent.gif"/>
-                        <div id="u772_text" class="text ">
-                          <p><span>&nbsp; 為何我們</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u773" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u773_div" class=""></div>
-                        <div id="u773_text" class="text ">
-                          <p><span>&nbsp; 馬上註冊</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u774" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u774_div" class=""></div>
-                        <div id="u774_text" class="text ">
-                          <p><span>&nbsp; 用戶推薦</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u775" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u775_div" class=""></div>
-                        <div id="u775_text" class="text ">
-                          <p><span>&nbsp; 風險披露</span></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Unnamed (Shape) -->
-              <div id="u776" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                <img id="u776_img" class="img " src="resources/images/transparent.gif"/>
-                <div id="u776_text" class="text ">
-                  <p><span>首頁</span></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2ND SUB (Group) -->
-            <div id="u777" class="ax_default ax_default_unplaced" data-label="2ND SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-              <!-- Unnamed (Shape) -->
-              <div id="u778" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                <img id="u778_img" class="img " src="resources/images/transparent.gif"/>
-                <div id="u778_text" class="text ">
-                  <p><span>足球AI模組分析</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Dynamic Panel) -->
-              <div id="u779" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
-                <div id="u779_state0" class="panel_state" data-label="State 1" style="">
-                  <div id="u779_state0_content" class="panel_state_content">
-
-                    <!-- AI_SUBMENU (Group) -->
-                    <div id="u780" class="ax_default ax_default_unplaced ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u781" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u781_div" class=""></div>
-                        <div id="u781_text" class="text " style="display:none; visibility: hidden">
-                          <p></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Shape) -->
-                      <div id="u782" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <img id="u782_img" class="img " src="resources/images/transparent.gif"/>
-                        <div id="u782_text" class="text ">
-                          <p><span>&nbsp;&nbsp; &nbsp; AI模組賽果預測</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u783" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u783_div" class=""></div>
-                        <div id="u783_text" class="text ">
-                          <p><span>&nbsp;綜合網民數據結果</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Shape) -->
-                      <div id="u784" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <img id="u784_img" class="img " src="resources/images/transparent.gif"/>
-                        <div id="u784_text" class="text ">
-                          <p><span>&nbsp;值博率模組分析</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u785" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u785_div" class=""></div>
-                        <div id="u785_text" class="text ">
-                          <p><span>&nbsp; AI模組波膽分析</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u786" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                        <div id="u786_div" class=""></div>
-                        <div id="u786_text" class="text ">
-                          <p><span>&nbsp;AI模組分析大小角</span></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3RD SUB (Group) -->
-            <div id="u787" class="ax_default ax_default_unplaced" data-label="3RD SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
-
-              <!-- Unnamed (Shape) -->
-              <div id="u788" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-                <img id="u788_img" class="img " src="resources/images/transparent.gif"/>
-                <div id="u788_text" class="text ">
-                  <p><span>Futra是日精選</span></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (Dynamic Panel) -->
-              <div id="u789" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
-                <div id="u789_state0" class="panel_state" data-label="State 1" style="">
-                  <div id="u789_state0_content" class="panel_state_content">
-
-                    <!-- FUTRA_SUBMENU (Group) -->
-                    <div id="u790" class="ax_default" data-label="FUTRA_SUBMENU" data-left="0" data-top="0" data-width="390" data-height="144">
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u791" class="ax_default box_3">
-                        <div id="u791_div" class=""></div>
-                        <div id="u791_text" class="text " style="display:none; visibility: hidden">
-                          <p></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Shape) -->
-                      <div id="u792" class="ax_default box_3">
-                        <img id="u792_img" class="img " src="images/page_a4/u28.svg"/>
-                        <div id="u792_text" class="text ">
-                          <p><span>&nbsp;&nbsp; &nbsp; Futra是日精選</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Rectangle) -->
-                      <div id="u793" class="ax_default box_3">
-                        <div id="u793_div" class=""></div>
-                        <div id="u793_text" class="text ">
-                          <p><span>爆冷精選</span></p>
-                        </div>
-                      </div>
-
-                      <!-- Unnamed (Shape) -->
-                      <div id="u794" class="ax_default box_3">
-                        <img id="u794_img" class="img " src="images/page_a4/u30.svg"/>
-                        <div id="u794_text" class="text ">
-                          <p><span>&nbsp;&nbsp;&nbsp; AI模組嚴選最高分隊</span></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u795" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-              <img id="u795_img" class="img " src="resources/images/transparent.gif"/>
-              <div id="u795_text" class="text ">
-                <p><span>為何我們</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u796" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-              <img id="u796_img" class="img " src="resources/images/transparent.gif"/>
-              <div id="u796_text" class="text ">
-                <p><span>聯絡我們</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u797" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-              <img id="u797_img" class="img " src="resources/images/transparent.gif"/>
-              <div id="u797_text" class="text ">
-                <p><span>會員中心</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u798" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
-              <img id="u798_img" class="img " src="resources/images/transparent.gif"/>
-              <div id="u798_text" class="text ">
-                <p><span>登入</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Unnamed (Top Menu) -->
 
       <!-- Top Menu_M (Group) -->
-      <div id="u799" class="ax_default ax_default_unplaced" data-label="Top Menu_M" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+      <div id="u51" class="ax_default ax_default_unplaced" data-label="Top Menu_M" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Dynamic Panel) -->
+        <div id="u52" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+          <div id="u52_state0" class="panel_state" data-label="State 1" style="">
+            <div id="u52_state0_content" class="panel_state_content">
+
+              <!-- 1ST SUB (Group) -->
+              <div id="u53" class="ax_default ax_default_unplaced" data-label="1ST SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u54" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u54_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u54_state0_content" class="panel_state_content">
+
+                      <!-- HOME_SUBMENU (Group) -->
+                      <div id="u55" class="ax_default ax_default_unplaced ax_default_hidden" data-label="HOME_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u56" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u56_div" class=""></div>
+                          <div id="u56_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u57" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u57_div" class=""></div>
+                          <div id="u57_text" class="text ">
+                            <p><span>簡介</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u58" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u58_div" class=""></div>
+                          <div id="u58_text" class="text ">
+                            <p><span>如何應用</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u59" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u59_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                          <div id="u59_text" class="text ">
+                            <p><span>為何我們</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u60" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u60_div" class=""></div>
+                          <div id="u60_text" class="text ">
+                            <p><span>馬上註冊</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u61" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u61_div" class=""></div>
+                          <div id="u61_text" class="text ">
+                            <p><span>用戶推薦</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u62" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u62_div" class=""></div>
+                          <div id="u62_text" class="text ">
+                            <p><span>風險披露</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u63" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u63_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                  <div id="u63_text" class="text ">
+                    <p><span>首頁</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2ND SUB (Group) -->
+              <div id="u64" class="ax_default ax_default_unplaced" data-label="2ND SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u65" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u65_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u65_state0_content" class="panel_state_content">
+
+                      <!-- AI_SUBMENU (Group) -->
+                      <div id="u66" class="ax_default ax_default_unplaced ax_default_hidden" data-label="AI_SUBMENU" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u67" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u67_div" class=""></div>
+                          <div id="u67_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u68" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u68_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                          <div id="u68_text" class="text ">
+                            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組賽果預測</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u69" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u69_div" class=""></div>
+                          <div id="u69_text" class="text ">
+                            <p><span>綜合網民數據結果</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u70" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <img id="u70_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                          <div id="u70_text" class="text ">
+                            <p><span>值博率模組分析</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u71" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u71_div" class=""></div>
+                          <div id="u71_text" class="text ">
+                            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組波膽分析</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u72" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                          <div id="u72_div" class=""></div>
+                          <div id="u72_text" class="text ">
+                            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析大小角</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u73" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u73_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                  <div id="u73_text" class="text ">
+                    <p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">足球</span><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組分析</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3RD SUB (Group) -->
+              <div id="u74" class="ax_default ax_default_unplaced" data-label="3RD SUB" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u75" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden">
+                  <div id="u75_state0" class="panel_state" data-label="State 1" style="">
+                    <div id="u75_state0_content" class="panel_state_content">
+
+                      <!-- FUTRA_SUBMENU (Group) -->
+                      <div id="u76" class="ax_default" data-label="FUTRA_SUBMENU" data-left="0" data-top="0" data-width="390" data-height="144">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u77" class="ax_default box_3">
+                          <div id="u77_div" class=""></div>
+                          <div id="u77_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u78" class="ax_default box_3">
+                          <img id="u78_img" class="img " src="/footballui/public/frontend/images/page_a5/u78.svg"/>
+                          <div id="u78_text" class="text ">
+                            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">Futra</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">是日精選</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u79" class="ax_default box_3">
+                          <div id="u79_div" class=""></div>
+                          <div id="u79_text" class="text ">
+                            <p><span>爆冷精選</span></p>
+                          </div>
+                        </div>
+
+                        <!-- Unnamed (Shape) -->
+                        <div id="u80" class="ax_default box_3">
+                          <img id="u80_img" class="img " src="/footballui/public/frontend/images/page_a5/u80.svg"/>
+                          <div id="u80_text" class="text ">
+                            <p><span style="font-family:&quot;Arial Normal&quot;, &quot;Arial&quot;, sans-serif;">AI</span><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">模組嚴選最高分隊</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u81" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                  <img id="u81_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                  <div id="u81_text" class="text ">
+                    <p><span>Futra是日精選</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u82" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u82_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                <div id="u82_text" class="text ">
+                  <p><span>為何我們</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u83" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u83_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                <div id="u83_text" class="text ">
+                  <p><span>聯絡我們</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u84" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u84_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                <div id="u84_text" class="text ">
+                  <p><span>會員中心</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u85" class="ax_default box_3 ax_default_unplaced" style="display:none; visibility: hidden">
+                <img id="u85_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+                <div id="u85_text" class="text ">
+                  <p><span>登入</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Unnamed (Placeholder) -->
-        <div id="u800" class="ax_default placeholder ax_default_unplaced" style="display:none; visibility: hidden">
-          <img id="u800_img" class="img " src="resources/images/transparent.gif"/>
-          <div id="u800_text" class="text " style="display:none; visibility: hidden">
+        <div id="u86" class="ax_default placeholder ax_default_unplaced" style="display:none; visibility: hidden">
+          <img id="u86_img" class="img " src="/footballui/public/frontend/resources/images/transparent.gif"/>
+          <div id="u86_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u801" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u801_div" class=""></div>
-          <div id="u801_text" class="text " style="display:none; visibility: hidden">
+        <div id="u87" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
+          <div id="u87_div" class=""></div>
+          <div id="u87_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
-        <div id="u802" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
-          <div id="u802_div" class=""></div>
-          <div id="u802_text" class="text ">
+        <div id="u88" class="ax_default box_1 ax_default_unplaced" style="display:none; visibility: hidden">
+          <div id="u88_div" class=""></div>
+          <div id="u88_text" class="text ">
             <p><span>MENU</span></p>
           </div>
         </div>
       </div>
+      <div id="u50" style="display:none; visibility:hidden;"></div>
+
+      <!-- Table (Dynamic Panel) -->
+      <div id="u89" class="ax_default" data-label="Table">
+        <div id="u89_state0" class="panel_state" data-label="Today" style="">
+          <div id="u89_state0_content" class="panel_state_content">
+
+            <!-- corner_table (Group) -->
+            <div id="u90" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+
+              <!-- corner_table_title (Group) -->
+              <div id="u91" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u92" class="ax_default box_1">
+                  <div id="u92_div" class=""></div>
+                  <div id="u92_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- h_corner (Rectangle) -->
+                <div id="u93" class="ax_default box_1" data-label="h_corner">
+                  <div id="u93_div" class=""></div>
+                  <div id="u93_text" class="text ">
+                    <p><span>主隊</span></p>
+                  </div>
+                </div>
+
+                <!-- g_corner (Rectangle) -->
+                <div id="u94" class="ax_default box_1" data-label="g_corner">
+                  <div id="u94_div" class=""></div>
+                  <div id="u94_text" class="text ">
+                    <p><span>客隊</span></p>
+                  </div>
+                </div>
+
+                <!-- t_corner (Rectangle) -->
+                <div id="u95" class="ax_default box_1" data-label="t_corner">
+                  <div id="u95_div" class=""></div>
+                  <div id="u95_text" class="text ">
+                    <p><span>總角球</span></p>
+                  </div>
+                </div>
+
+                <!-- corner (Rectangle) -->
+                <div id="u96" class="ax_default box_1" data-label="corner">
+                  <div id="u96_div" class=""></div>
+                  <div id="u96_text" class="text ">
+                    <p><span>角球數</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table1 (Group) -->
+              <div id="u97" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u98" class="ax_default box_1" data-label="game_name">
+                  <img id="u98_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u98_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u99" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u99_div" class=""></div>
+                  <div id="u99_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u100" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u100_div" class=""></div>
+                  <div id="u100_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u101" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u101_div" class=""></div>
+                  <div id="u101_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table2 (Group) -->
+              <div id="u102" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u103" class="ax_default box_1" data-label="game_name">
+                  <img id="u103_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u103_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u104" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u104_div" class=""></div>
+                  <div id="u104_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u105" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u105_div" class=""></div>
+                  <div id="u105_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u106" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u106_div" class=""></div>
+                  <div id="u106_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table3 (Group) -->
+              <div id="u107" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u108" class="ax_default box_1" data-label="game_name">
+                  <img id="u108_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u108_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u109" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u109_div" class=""></div>
+                  <div id="u109_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u110" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u110_div" class=""></div>
+                  <div id="u110_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u111" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u111_div" class=""></div>
+                  <div id="u111_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table4 (Group) -->
+              <div id="u112" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u113" class="ax_default box_1" data-label="game_name">
+                  <img id="u113_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u113_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u114" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u114_div" class=""></div>
+                  <div id="u114_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u115" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u115_div" class=""></div>
+                  <div id="u115_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u116" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u116_div" class=""></div>
+                  <div id="u116_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table5 (Group) -->
+              <div id="u117" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u118" class="ax_default box_1" data-label="game_name">
+                  <img id="u118_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u118_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u119" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u119_div" class=""></div>
+                  <div id="u119_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u120" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u120_div" class=""></div>
+                  <div id="u120_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u121" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u121_div" class=""></div>
+                  <div id="u121_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table6 (Group) -->
+              <div id="u122" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u123" class="ax_default box_1" data-label="game_name">
+                  <img id="u123_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u123_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u124" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u124_div" class=""></div>
+                  <div id="u124_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u125" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u125_div" class=""></div>
+                  <div id="u125_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u126" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u126_div" class=""></div>
+                  <div id="u126_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table7 (Group) -->
+              <div id="u127" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u128" class="ax_default box_1" data-label="game_name">
+                  <img id="u128_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u128_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u129" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u129_div" class=""></div>
+                  <div id="u129_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u130" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u130_div" class=""></div>
+                  <div id="u130_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u131" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u131_div" class=""></div>
+                  <div id="u131_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table8 (Group) -->
+              <div id="u132" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u133" class="ax_default box_1" data-label="game_name">
+                  <img id="u133_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u133_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u134" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u134_div" class=""></div>
+                  <div id="u134_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u135" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u135_div" class=""></div>
+                  <div id="u135_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u136" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u136_div" class=""></div>
+                  <div id="u136_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table9 (Group) -->
+              <div id="u137" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u138" class="ax_default box_1" data-label="game_name">
+                  <img id="u138_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u138_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u139" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u139_div" class=""></div>
+                  <div id="u139_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u140" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u140_div" class=""></div>
+                  <div id="u140_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u141" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u141_div" class=""></div>
+                  <div id="u141_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_table10 (Group) -->
+              <div id="u142" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u143" class="ax_default box_1" data-label="game_name">
+                  <img id="u143_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u143_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u144" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u144_div" class=""></div>
+                  <div id="u144_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u145" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u145_div" class=""></div>
+                  <div id="u145_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u146" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u146_div" class=""></div>
+                  <div id="u146_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u89_state1" class="panel_state" data-label="Tomorrow" style="visibility: hidden;">
+          <div id="u89_state1_content" class="panel_state_content">
+
+            <!-- corner_table (Group) -->
+            <div id="u147" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+
+              <!-- corner_table_title (Group) -->
+              <div id="u148" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u149" class="ax_default box_1">
+                  <div id="u149_div" class=""></div>
+                  <div id="u149_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- h_corner (Rectangle) -->
+                <div id="u150" class="ax_default box_1" data-label="h_corner">
+                  <div id="u150_div" class=""></div>
+                  <div id="u150_text" class="text ">
+                    <p><span>主隊</span></p>
+                  </div>
+                </div>
+
+                <!-- g_corner (Rectangle) -->
+                <div id="u151" class="ax_default box_1" data-label="g_corner">
+                  <div id="u151_div" class=""></div>
+                  <div id="u151_text" class="text ">
+                    <p><span>客隊</span></p>
+                  </div>
+                </div>
+
+                <!-- t_corner (Rectangle) -->
+                <div id="u152" class="ax_default box_1" data-label="t_corner">
+                  <div id="u152_div" class=""></div>
+                  <div id="u152_text" class="text ">
+                    <p><span>總角球</span></p>
+                  </div>
+                </div>
+
+                <!-- corner (Rectangle) -->
+                <div id="u153" class="ax_default box_1" data-label="corner">
+                  <div id="u153_div" class=""></div>
+                  <div id="u153_text" class="text ">
+                    <p><span>角球數</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table1 (Group) -->
+              <div id="u154" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u155" class="ax_default box_1" data-label="game_name">
+                  <img id="u155_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u155_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u156" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u156_div" class=""></div>
+                  <div id="u156_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u157" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u157_div" class=""></div>
+                  <div id="u157_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u158" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u158_div" class=""></div>
+                  <div id="u158_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table2 (Group) -->
+              <div id="u159" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u160" class="ax_default box_1" data-label="game_name">
+                  <img id="u160_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u160_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u161" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u161_div" class=""></div>
+                  <div id="u161_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u162" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u162_div" class=""></div>
+                  <div id="u162_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u163" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u163_div" class=""></div>
+                  <div id="u163_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table3 (Group) -->
+              <div id="u164" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u165" class="ax_default box_1" data-label="game_name">
+                  <img id="u165_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u165_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u166" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u166_div" class=""></div>
+                  <div id="u166_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u167" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u167_div" class=""></div>
+                  <div id="u167_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u168" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u168_div" class=""></div>
+                  <div id="u168_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table4 (Group) -->
+              <div id="u169" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u170" class="ax_default box_1" data-label="game_name">
+                  <img id="u170_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u170_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u171" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u171_div" class=""></div>
+                  <div id="u171_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Shape) -->
+                <div id="u172" class="ax_default box_1" data-label="value_g_corner">
+                  <img id="u172_img" class="img " src="/footballui/public/frontend/images/page_a5/value_g_corner_u172.svg"/>
+                  <div id="u172_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u173" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u173_div" class=""></div>
+                  <div id="u173_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table5 (Group) -->
+              <div id="u174" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u175" class="ax_default box_1" data-label="game_name">
+                  <img id="u175_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u175_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u176" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u176_div" class=""></div>
+                  <div id="u176_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u177" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u177_div" class=""></div>
+                  <div id="u177_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u178" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u178_div" class=""></div>
+                  <div id="u178_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table6 (Group) -->
+              <div id="u179" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u180" class="ax_default box_1" data-label="game_name">
+                  <img id="u180_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u180_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u181" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u181_div" class=""></div>
+                  <div id="u181_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u182" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u182_div" class=""></div>
+                  <div id="u182_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u183" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u183_div" class=""></div>
+                  <div id="u183_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table7 (Group) -->
+              <div id="u184" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u185" class="ax_default box_1" data-label="game_name">
+                  <img id="u185_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u185_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u186" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u186_div" class=""></div>
+                  <div id="u186_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u187" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u187_div" class=""></div>
+                  <div id="u187_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u188" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u188_div" class=""></div>
+                  <div id="u188_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table8 (Group) -->
+              <div id="u189" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u190" class="ax_default box_1" data-label="game_name">
+                  <img id="u190_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u190_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u191" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u191_div" class=""></div>
+                  <div id="u191_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u192" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u192_div" class=""></div>
+                  <div id="u192_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u193" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u193_div" class=""></div>
+                  <div id="u193_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table9 (Group) -->
+              <div id="u194" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u195" class="ax_default box_1" data-label="game_name">
+                  <img id="u195_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u195_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u196" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u196_div" class=""></div>
+                  <div id="u196_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u197" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u197_div" class=""></div>
+                  <div id="u197_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Shape) -->
+                <div id="u198" class="ax_default box_1" data-label="value_t_corner">
+                  <img id="u198_img" class="img " src="/footballui/public/frontend/images/page_a5/value_t_corner_u198.svg"/>
+                  <div id="u198_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_table10 (Group) -->
+              <div id="u199" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u200" class="ax_default box_1" data-label="game_name">
+                  <img id="u200_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u200_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u201" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u201_div" class=""></div>
+                  <div id="u201_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u202" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u202_div" class=""></div>
+                  <div id="u202_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u203" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u203_div" class=""></div>
+                  <div id="u203_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u89_state2" class="panel_state" data-label="After_tmr" style="visibility: hidden;">
+          <div id="u89_state2_content" class="panel_state_content">
+
+            <!-- corner_table (Group) -->
+            <div id="u204" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+
+              <!-- corner_table_title (Group) -->
+              <div id="u205" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u206" class="ax_default box_1">
+                  <div id="u206_div" class=""></div>
+                  <div id="u206_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- h_corner (Rectangle) -->
+                <div id="u207" class="ax_default box_1" data-label="h_corner">
+                  <div id="u207_div" class=""></div>
+                  <div id="u207_text" class="text ">
+                    <p><span>主隊</span></p>
+                  </div>
+                </div>
+
+                <!-- g_corner (Rectangle) -->
+                <div id="u208" class="ax_default box_1" data-label="g_corner">
+                  <div id="u208_div" class=""></div>
+                  <div id="u208_text" class="text ">
+                    <p><span>客隊</span></p>
+                  </div>
+                </div>
+
+                <!-- t_corner (Rectangle) -->
+                <div id="u209" class="ax_default box_1" data-label="t_corner">
+                  <div id="u209_div" class=""></div>
+                  <div id="u209_text" class="text ">
+                    <p><span>總角球</span></p>
+                  </div>
+                </div>
+
+                <!-- corner (Rectangle) -->
+                <div id="u210" class="ax_default box_1" data-label="corner">
+                  <div id="u210_div" class=""></div>
+                  <div id="u210_text" class="text ">
+                    <p><span>角球數</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table1 (Group) -->
+              <div id="u211" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u212" class="ax_default box_1" data-label="game_name">
+                  <img id="u212_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u212_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u213" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u213_div" class=""></div>
+                  <div id="u213_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u214" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u214_div" class=""></div>
+                  <div id="u214_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u215" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u215_div" class=""></div>
+                  <div id="u215_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table2 (Group) -->
+              <div id="u216" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u217" class="ax_default box_1" data-label="game_name">
+                  <img id="u217_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u217_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u218" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u218_div" class=""></div>
+                  <div id="u218_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u219" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u219_div" class=""></div>
+                  <div id="u219_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u220" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u220_div" class=""></div>
+                  <div id="u220_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table3 (Group) -->
+              <div id="u221" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u222" class="ax_default box_1" data-label="game_name">
+                  <img id="u222_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u222_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u223" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u223_div" class=""></div>
+                  <div id="u223_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u224" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u224_div" class=""></div>
+                  <div id="u224_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u225" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u225_div" class=""></div>
+                  <div id="u225_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table4 (Group) -->
+              <div id="u226" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u227" class="ax_default box_1" data-label="game_name">
+                  <img id="u227_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u227_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u228" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u228_div" class=""></div>
+                  <div id="u228_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u229" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u229_div" class=""></div>
+                  <div id="u229_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u230" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u230_div" class=""></div>
+                  <div id="u230_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table5 (Group) -->
+              <div id="u231" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u232" class="ax_default box_1" data-label="game_name">
+                  <img id="u232_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u232_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u233" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u233_div" class=""></div>
+                  <div id="u233_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u234" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u234_div" class=""></div>
+                  <div id="u234_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u235" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u235_div" class=""></div>
+                  <div id="u235_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table6 (Group) -->
+              <div id="u236" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u237" class="ax_default box_1" data-label="game_name">
+                  <img id="u237_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u237_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u238" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u238_div" class=""></div>
+                  <div id="u238_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u239" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u239_div" class=""></div>
+                  <div id="u239_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u240" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u240_div" class=""></div>
+                  <div id="u240_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table7 (Group) -->
+              <div id="u241" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u242" class="ax_default box_1" data-label="game_name">
+                  <img id="u242_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u242_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u243" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u243_div" class=""></div>
+                  <div id="u243_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u244" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u244_div" class=""></div>
+                  <div id="u244_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u245" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u245_div" class=""></div>
+                  <div id="u245_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table8 (Group) -->
+              <div id="u246" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u247" class="ax_default box_1" data-label="game_name">
+                  <img id="u247_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u247_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u248" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u248_div" class=""></div>
+                  <div id="u248_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u249" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u249_div" class=""></div>
+                  <div id="u249_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u250" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u250_div" class=""></div>
+                  <div id="u250_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table9 (Group) -->
+              <div id="u251" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u252" class="ax_default box_1" data-label="game_name">
+                  <img id="u252_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u252_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u253" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u253_div" class=""></div>
+                  <div id="u253_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u254" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u254_div" class=""></div>
+                  <div id="u254_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u255" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u255_div" class=""></div>
+                  <div id="u255_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_table10 (Group) -->
+              <div id="u256" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u257" class="ax_default box_1" data-label="game_name">
+                  <img id="u257_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u257_text" class="text ">
+                    <p><span>1</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u258" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u258_div" class=""></div>
+                  <div id="u258_text" class="text ">
+                    <p><span>{{ $b5s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u259" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u259_div" class=""></div>
+                  <div id="u259_text" class="text ">
+                    <p><span>{{ $b5s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u260" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u260_div" class=""></div>
+                  <div id="u260_text" class="text ">
+                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Date (Group) -->
+      <div id="u261" class="ax_default" data-label="Date" data-left="896" data-top="98" data-width="320" data-height="28">
+
+        <!-- After_tomorrow (Rectangle) -->
+        <div id="u262" class="ax_default label" data-label="After_tomorrow">
+          <div id="u262_div" class=""></div>
+          <div id="u262_text" class="text ">
+            <p><span>後日</span></p>
+          </div>
+        </div>
+
+        <!-- Tomorrow (Rectangle) -->
+        <div id="u263" class="ax_default label" data-label="Tomorrow">
+          <div id="u263_div" class=""></div>
+          <div id="u263_text" class="text ">
+            <p><span>明日</span></p>
+          </div>
+        </div>
+
+        <!-- Today (Rectangle) -->
+        <div id="u264" class="ax_default label" data-label="Today">
+          <div id="u264_div" class=""></div>
+          <div id="u264_text" class="text ">
+            <p><span>今日</span></p>
+          </div>
+        </div>
+
+        <!-- Match_date (Rectangle) -->
+        <div id="u265" class="ax_default label" data-label="Match_date">
+          <div id="u265_div" class=""></div>
+          <div id="u265_text" class="text ">
+            <p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">賽程 </span><span style="font-family:&quot;Lucida Grande &quot;, &quot;Lucida Grande&quot;, sans-serif;color:#000000;">►</span></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="resources/scripts/axure/ios.js"></script>
+    <script src="/footballui/public/frontend/resources/scripts/axure/ios.js"></script>
   </body>
 </html>
