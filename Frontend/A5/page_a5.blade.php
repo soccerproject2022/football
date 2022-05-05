@@ -45,6 +45,84 @@
       $axure.utils.getOtherPath = function() { return '/footballui/public/frontend/resources/Other.html'; };
       $axure.utils.getReloadPath = function() { return '/footballui/public/frontend/resources/reload.html'; };
     </script>
+
+<script>
+  window.onload = function () {
+  
+    var chart = new CanvasJS.Chart("chartContainer", {
+    animationEnabled: true,
+    theme: "dark2",
+    title:{
+    text: "年度總積分"
+  },
+    toolTip:{
+    enabled: false,
+    shared:false
+  },  
+    data: [{
+    type: "line",
+    showInLegend: true,
+    name: "主隊",
+    markerType: "circle",
+    color: "red",
+    dataPoints: [
+      { x: 10, y: 7, label:"1" },
+      { x: 20, y: 9, label:"2" },
+      { x: 30, y: 6, label:"3" },
+      { x: 40, y: 6, label:"4" },
+      { x: 50, y: 7, label:"5" },
+      { x: 60, y: 7, label:"6" },
+      { x: 70, y: 8, label:"7" },
+      { x: 80, y: 8, label:"8" },
+      { x: 90, y: 9, label:"9" },
+      { x: 100, y: 6, label:"10" }
+    ]
+  },
+  {
+    type: "line",
+    showInLegend: true,
+    name: "客隊",
+    markerType: "circle",
+    color: "green",
+    dataPoints: [
+    { x: 10, y: 5, label:"1" },
+      { x: 20, y: 7, label:"2" },
+      { x: 30, y: 7, label:"3" },
+      { x: 40, y: 8, label:"4" },
+      { x: 50, y: 6, label:"5" },
+      { x: 60, y: 5, label:"6" },
+      { x: 70, y: 5, label:"7" },
+      { x: 80, y: 6, label:"8" },
+      { x: 90, y: 7, label:"9" },
+      { x: 100, y: 7, label:"10" }
+    ]
+  },
+
+  {
+    type: "line",
+    showInLegend: true,
+    name: "總入球",
+    markerType: "circle",
+    color: "blue",
+    dataPoints: [
+    { x: 10, y: 14, label:"1" },
+      { x: 20, y: 16, label:"2" },
+      { x: 30, y: 13, label:"3" },
+      { x: 40, y: 14, label:"4" },
+      { x: 50, y: 13, label:"5" },
+      { x: 60, y: 12, label:"6" },
+      { x: 70, y: 13, label:"7" },
+      { x: 80, y: 14, label:"8" },
+      { x: 90, y: 16, label:"9" },
+      { x: 100, y: 13, label:"10" }
+    ]
+  }]
+  });
+    chart.render();
+  }
+</script>
+
+
   </head>
   <body>
     <div id="base" class="">
@@ -58,7 +136,7 @@
       </div>
 
       <!-- footer (Group) -->
-      <div id="u1" class="ax_default" data-label="footer" data-left="150" data-top="1510" data-width="1073" data-height="171">
+      <div id="u1" class="ax_default" data-label="footer" data-left="171" data-top="2205" data-width="1073" data-height="171">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u2" class="ax_default shape">
@@ -665,7 +743,7 @@
           <div id="u89_state0_content" class="panel_state_content">
 
             <!-- corner_table (Group) -->
-            <div id="u90" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+            <div id="u90" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="1215">
 
               <!-- corner_table_title (Group) -->
               <div id="u91" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
@@ -718,7 +796,7 @@
                 <div id="u98" class="ax_default box_1" data-label="game_name">
                   <img id="u98_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u98_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -754,7 +832,7 @@
                 <div id="u103" class="ax_default box_1" data-label="game_name">
                   <img id="u103_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u103_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -762,7 +840,7 @@
                 <div id="u104" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u104_div" class=""></div>
                   <div id="u104_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b52s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -770,7 +848,7 @@
                 <div id="u105" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u105_div" class=""></div>
                   <div id="u105_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b52s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -778,7 +856,7 @@
                 <div id="u106" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u106_div" class=""></div>
                   <div id="u106_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b52s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -790,7 +868,7 @@
                 <div id="u108" class="ax_default box_1" data-label="game_name">
                   <img id="u108_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u108_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -798,7 +876,7 @@
                 <div id="u109" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u109_div" class=""></div>
                   <div id="u109_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b53s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -806,7 +884,7 @@
                 <div id="u110" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u110_div" class=""></div>
                   <div id="u110_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b53s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -814,7 +892,7 @@
                 <div id="u111" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u111_div" class=""></div>
                   <div id="u111_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b53s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -826,7 +904,7 @@
                 <div id="u113" class="ax_default box_1" data-label="game_name">
                   <img id="u113_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u113_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -834,7 +912,7 @@
                 <div id="u114" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u114_div" class=""></div>
                   <div id="u114_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b54s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -842,7 +920,7 @@
                 <div id="u115" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u115_div" class=""></div>
                   <div id="u115_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b54s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -850,7 +928,7 @@
                 <div id="u116" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u116_div" class=""></div>
                   <div id="u116_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b54s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -862,7 +940,7 @@
                 <div id="u118" class="ax_default box_1" data-label="game_name">
                   <img id="u118_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u118_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -870,7 +948,7 @@
                 <div id="u119" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u119_div" class=""></div>
                   <div id="u119_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b55s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -878,7 +956,7 @@
                 <div id="u120" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u120_div" class=""></div>
                   <div id="u120_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b55s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -886,7 +964,7 @@
                 <div id="u121" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u121_div" class=""></div>
                   <div id="u121_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b55s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -898,7 +976,7 @@
                 <div id="u123" class="ax_default box_1" data-label="game_name">
                   <img id="u123_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u123_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -906,7 +984,7 @@
                 <div id="u124" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u124_div" class=""></div>
                   <div id="u124_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b56s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -914,7 +992,7 @@
                 <div id="u125" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u125_div" class=""></div>
                   <div id="u125_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b56s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -922,7 +1000,7 @@
                 <div id="u126" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u126_div" class=""></div>
                   <div id="u126_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b56s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -934,7 +1012,7 @@
                 <div id="u128" class="ax_default box_1" data-label="game_name">
                   <img id="u128_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u128_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -942,7 +1020,7 @@
                 <div id="u129" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u129_div" class=""></div>
                   <div id="u129_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b57s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -950,7 +1028,7 @@
                 <div id="u130" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u130_div" class=""></div>
                   <div id="u130_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b57s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -958,7 +1036,7 @@
                 <div id="u131" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u131_div" class=""></div>
                   <div id="u131_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b57s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -970,7 +1048,7 @@
                 <div id="u133" class="ax_default box_1" data-label="game_name">
                   <img id="u133_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u133_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -978,7 +1056,7 @@
                 <div id="u134" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u134_div" class=""></div>
                   <div id="u134_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b58s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -986,7 +1064,7 @@
                 <div id="u135" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u135_div" class=""></div>
                   <div id="u135_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b58s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -994,7 +1072,7 @@
                 <div id="u136" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u136_div" class=""></div>
                   <div id="u136_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b58s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -1006,7 +1084,7 @@
                 <div id="u138" class="ax_default box_1" data-label="game_name">
                   <img id="u138_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u138_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1014,7 +1092,7 @@
                 <div id="u139" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u139_div" class=""></div>
                   <div id="u139_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b59s->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -1022,7 +1100,7 @@
                 <div id="u140" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u140_div" class=""></div>
                   <div id="u140_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b59s->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -1030,7 +1108,7 @@
                 <div id="u141" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u141_div" class=""></div>
                   <div id="u141_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                    <p><span>{{ $b59s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -1042,7 +1120,7 @@
                 <div id="u143" class="ax_default box_1" data-label="game_name">
                   <img id="u143_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u143_text" class="text ">
-                    <p><span>1</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1050,7 +1128,7 @@
                 <div id="u144" class="ax_default box_1" data-label="value_h_corner">
                   <div id="u144_div" class=""></div>
                   <div id="u144_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                    <p><span>{{ $b5as->h_corner }}</span></p>
                   </div>
                 </div>
 
@@ -1058,7 +1136,7 @@
                 <div id="u145" class="ax_default box_1" data-label="value_g_corner">
                   <div id="u145_div" class=""></div>
                   <div id="u145_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                    <p><span>{{ $b5as->g_corner }}</span></p>
                   </div>
                 </div>
 
@@ -1066,7 +1144,367 @@
                 <div id="u146" class="ax_default box_1" data-label="value_t_corner">
                   <div id="u146_div" class=""></div>
                   <div id="u146_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                    <p><span>{{ $b5as->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table11 (Group) -->
+              <div id="u147" class="ax_default" data-label="corner_value_table11" data-left="0" data-top="664" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u148" class="ax_default box_1" data-label="game_name">
+                  <img id="u148_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u148_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u149" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u149_div" class=""></div>
+                  <div id="u149_text" class="text ">
+                    <p><span>{{ $b511s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u150" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u150_div" class=""></div>
+                  <div id="u150_text" class="text ">
+                    <p><span>{{ $b511s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u151" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u151_div" class=""></div>
+                  <div id="u151_text" class="text ">
+                    <p><span>{{ $b511s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table12 (Group) -->
+              <div id="u152" class="ax_default" data-label="corner_value_table12" data-left="0" data-top="719" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u153" class="ax_default box_1" data-label="game_name">
+                  <img id="u153_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u153_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u154" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u154_div" class=""></div>
+                  <div id="u154_text" class="text ">
+                    <p><span>{{ $b512s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u155" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u155_div" class=""></div>
+                  <div id="u155_text" class="text ">
+                    <p><span>{{ $b512s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u156" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u156_div" class=""></div>
+                  <div id="u156_text" class="text ">
+                    <p><span>{{ $b512s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table13 (Group) -->
+              <div id="u157" class="ax_default" data-label="corner_value_table13" data-left="0" data-top="774" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u158" class="ax_default box_1" data-label="game_name">
+                  <img id="u158_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u158_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u159" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u159_div" class=""></div>
+                  <div id="u159_text" class="text ">
+                    <p><span>{{ $b513s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u160" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u160_div" class=""></div>
+                  <div id="u160_text" class="text ">
+                    <p><span>{{ $b513s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u161" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u161_div" class=""></div>
+                  <div id="u161_text" class="text ">
+                    <p><span>{{ $b513s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table14 (Group) -->
+              <div id="u162" class="ax_default" data-label="corner_value_table14" data-left="0" data-top="830" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u163" class="ax_default box_1" data-label="game_name">
+                  <img id="u163_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u163_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u164" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u164_div" class=""></div>
+                  <div id="u164_text" class="text ">
+                    <p><span>{{ $b514s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u165" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u165_div" class=""></div>
+                  <div id="u165_text" class="text ">
+                    <p><span>{{ $b514s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u166" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u166_div" class=""></div>
+                  <div id="u166_text" class="text ">
+                    <p><span>{{ $b514s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table15 (Group) -->
+              <div id="u167" class="ax_default" data-label="corner_value_table15" data-left="0" data-top="885" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u168" class="ax_default box_1" data-label="game_name">
+                  <img id="u168_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u168_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u169" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u169_div" class=""></div>
+                  <div id="u169_text" class="text ">
+                    <p><span>{{ $b515s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u170" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u170_div" class=""></div>
+                  <div id="u170_text" class="text ">
+                    <p><span>{{ $b515s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u171" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u171_div" class=""></div>
+                  <div id="u171_text" class="text ">
+                    <p><span>{{ $b515s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table16 (Group) -->
+              <div id="u172" class="ax_default" data-label="corner_value_table16" data-left="0" data-top="941" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u173" class="ax_default box_1" data-label="game_name">
+                  <img id="u173_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u173_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u174" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u174_div" class=""></div>
+                  <div id="u174_text" class="text ">
+                    <p><span>{{ $b516s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u175" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u175_div" class=""></div>
+                  <div id="u175_text" class="text ">
+                    <p><span>{{ $b516s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u176" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u176_div" class=""></div>
+                  <div id="u176_text" class="text ">
+                    <p><span>{{ $b516s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table17 (Group) -->
+              <div id="u177" class="ax_default" data-label="corner_value_table17" data-left="0" data-top="996" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u178" class="ax_default box_1" data-label="game_name">
+                  <img id="u178_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u178_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u179" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u179_div" class=""></div>
+                  <div id="u179_text" class="text ">
+                    <p><span>{{ $b517s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u180" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u180_div" class=""></div>
+                  <div id="u180_text" class="text ">
+                    <p><span>{{ $b517s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u181" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u181_div" class=""></div>
+                  <div id="u181_text" class="text ">
+                    <p><span>{{ $b517s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table18 (Group) -->
+              <div id="u182" class="ax_default" data-label="corner_value_table18" data-left="0" data-top="1051" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u183" class="ax_default box_1" data-label="game_name">
+                  <img id="u183_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u183_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u184" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u184_div" class=""></div>
+                  <div id="u184_text" class="text ">
+                    <p><span>{{ $b518s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u185" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u185_div" class=""></div>
+                  <div id="u185_text" class="text ">
+                    <p><span>{{ $b518s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u186" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u186_div" class=""></div>
+                  <div id="u186_text" class="text ">
+                    <p><span>{{ $b518s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_value_table19 (Group) -->
+              <div id="u187" class="ax_default" data-label="corner_value_table19" data-left="0" data-top="1107" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u188" class="ax_default box_1" data-label="game_name">
+                  <img id="u188_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u188_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u189" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u189_div" class=""></div>
+                  <div id="u189_text" class="text ">
+                    <p><span>{{ $b519s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u190" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u190_div" class=""></div>
+                  <div id="u190_text" class="text ">
+                    <p><span>{{ $b519s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u191" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u191_div" class=""></div>
+                  <div id="u191_text" class="text ">
+                    <p><span>{{ $b519s->total_corner }}</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- corner_table20 (Group) -->
+              <div id="u192" class="ax_default" data-label="corner_table20" data-left="0" data-top="1162" data-width="913" data-height="53">
+
+                <!-- game_name (Shape) -->
+                <div id="u193" class="ax_default box_1" data-label="game_name">
+                  <img id="u193_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u193_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_h_corner (Rectangle) -->
+                <div id="u194" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u194_div" class=""></div>
+                  <div id="u194_text" class="text ">
+                    <p><span>{{ $b520s->h_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_g_corner (Rectangle) -->
+                <div id="u195" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u195_div" class=""></div>
+                  <div id="u195_text" class="text ">
+                    <p><span>{{ $b520s->g_corner }}</span></p>
+                  </div>
+                </div>
+
+                <!-- value_t_corner (Rectangle) -->
+                <div id="u196" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u196_div" class=""></div>
+                  <div id="u196_text" class="text ">
+                    <p><span>{{ $b520s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
@@ -1077,409 +1515,769 @@
           <div id="u89_state1_content" class="panel_state_content">
 
             <!-- corner_table (Group) -->
-            <div id="u147" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+            <div id="u197" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
 
               <!-- corner_table_title (Group) -->
-              <div id="u148" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
+              <div id="u198" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u149" class="ax_default box_1">
-                  <div id="u149_div" class=""></div>
-                  <div id="u149_text" class="text " style="display:none; visibility: hidden">
+                <div id="u199" class="ax_default box_1">
+                  <div id="u199_div" class=""></div>
+                  <div id="u199_text" class="text " style="display:none; visibility: hidden">
                     <p></p>
                   </div>
                 </div>
 
                 <!-- h_corner (Rectangle) -->
-                <div id="u150" class="ax_default box_1" data-label="h_corner">
-                  <div id="u150_div" class=""></div>
-                  <div id="u150_text" class="text ">
+                <div id="u200" class="ax_default box_1" data-label="h_corner">
+                  <div id="u200_div" class=""></div>
+                  <div id="u200_text" class="text ">
                     <p><span>主隊</span></p>
                   </div>
                 </div>
 
                 <!-- g_corner (Rectangle) -->
-                <div id="u151" class="ax_default box_1" data-label="g_corner">
-                  <div id="u151_div" class=""></div>
-                  <div id="u151_text" class="text ">
+                <div id="u201" class="ax_default box_1" data-label="g_corner">
+                  <div id="u201_div" class=""></div>
+                  <div id="u201_text" class="text ">
                     <p><span>客隊</span></p>
                   </div>
                 </div>
 
                 <!-- t_corner (Rectangle) -->
-                <div id="u152" class="ax_default box_1" data-label="t_corner">
-                  <div id="u152_div" class=""></div>
-                  <div id="u152_text" class="text ">
+                <div id="u202" class="ax_default box_1" data-label="t_corner">
+                  <div id="u202_div" class=""></div>
+                  <div id="u202_text" class="text ">
                     <p><span>總角球</span></p>
                   </div>
                 </div>
 
                 <!-- corner (Rectangle) -->
-                <div id="u153" class="ax_default box_1" data-label="corner">
-                  <div id="u153_div" class=""></div>
-                  <div id="u153_text" class="text ">
+                <div id="u203" class="ax_default box_1" data-label="corner">
+                  <div id="u203_div" class=""></div>
+                  <div id="u203_text" class="text ">
                     <p><span>角球數</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table1 (Group) -->
-              <div id="u154" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
+              <div id="u204" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u155" class="ax_default box_1" data-label="game_name">
-                  <img id="u155_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u155_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u205" class="ax_default box_1" data-label="game_name">
+                  <img id="u205_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u205_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u156" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u156_div" class=""></div>
-                  <div id="u156_text" class="text ">
+                <div id="u206" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u206_div" class=""></div>
+                  <div id="u206_text" class="text ">
                     <p><span>{{ $b5s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u157" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u157_div" class=""></div>
-                  <div id="u157_text" class="text ">
+                <div id="u207" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u207_div" class=""></div>
+                  <div id="u207_text" class="text ">
                     <p><span>{{ $b5s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u158" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u158_div" class=""></div>
-                  <div id="u158_text" class="text ">
+                <div id="u208" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u208_div" class=""></div>
+                  <div id="u208_text" class="text ">
                     <p><span>{{ $b5s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table2 (Group) -->
-              <div id="u159" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
+              <div id="u209" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u160" class="ax_default box_1" data-label="game_name">
-                  <img id="u160_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u160_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u210" class="ax_default box_1" data-label="game_name">
+                  <img id="u210_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u210_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u161" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u161_div" class=""></div>
-                  <div id="u161_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u211" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u211_div" class=""></div>
+                  <div id="u211_text" class="text ">
+                    <p><span>{{ $b52s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u162" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u162_div" class=""></div>
-                  <div id="u162_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u212" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u212_div" class=""></div>
+                  <div id="u212_text" class="text ">
+                    <p><span>{{ $b52s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u163" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u163_div" class=""></div>
-                  <div id="u163_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u213" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u213_div" class=""></div>
+                  <div id="u213_text" class="text ">
+                    <p><span>{{ $b52s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table3 (Group) -->
-              <div id="u164" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
+              <div id="u214" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u165" class="ax_default box_1" data-label="game_name">
-                  <img id="u165_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u165_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u215" class="ax_default box_1" data-label="game_name">
+                  <img id="u215_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u215_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u166" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u166_div" class=""></div>
-                  <div id="u166_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u216" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u216_div" class=""></div>
+                  <div id="u216_text" class="text ">
+                    <p><span>{{ $b53s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u167" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u167_div" class=""></div>
-                  <div id="u167_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u217" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u217_div" class=""></div>
+                  <div id="u217_text" class="text ">
+                    <p><span>{{ $b53s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u168" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u168_div" class=""></div>
-                  <div id="u168_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u218" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u218_div" class=""></div>
+                  <div id="u218_text" class="text ">
+                    <p><span>{{ $b53s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table4 (Group) -->
-              <div id="u169" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
+              <div id="u219" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u170" class="ax_default box_1" data-label="game_name">
-                  <img id="u170_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u170_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u220" class="ax_default box_1" data-label="game_name">
+                  <img id="u220_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u220_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u171" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u171_div" class=""></div>
-                  <div id="u171_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u221" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u221_div" class=""></div>
+                  <div id="u221_text" class="text ">
+                    <p><span>{{ $b54s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Shape) -->
-                <div id="u172" class="ax_default box_1" data-label="value_g_corner">
-                  <img id="u172_img" class="img " src="/footballui/public/frontend/images/page_a5/value_g_corner_u172.svg"/>
-                  <div id="u172_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u222" class="ax_default box_1" data-label="value_g_corner">
+                  <img id="u222_img" class="img " src="/footballui/public/frontend/images/page_a5/value_g_corner_u222.svg"/>
+                  <div id="u222_text" class="text ">
+                    <p><span>{{ $b54s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u173" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u173_div" class=""></div>
-                  <div id="u173_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u223" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u223_div" class=""></div>
+                  <div id="u223_text" class="text ">
+                    <p><span>{{ $b54s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table5 (Group) -->
-              <div id="u174" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
+              <div id="u224" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u175" class="ax_default box_1" data-label="game_name">
-                  <img id="u175_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u175_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u225" class="ax_default box_1" data-label="game_name">
+                  <img id="u225_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u225_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u176" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u176_div" class=""></div>
-                  <div id="u176_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u226" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u226_div" class=""></div>
+                  <div id="u226_text" class="text ">
+                    <p><span>{{ $b55s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u177" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u177_div" class=""></div>
-                  <div id="u177_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u227" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u227_div" class=""></div>
+                  <div id="u227_text" class="text ">
+                    <p><span>{{ $b55s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u178" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u178_div" class=""></div>
-                  <div id="u178_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u228" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u228_div" class=""></div>
+                  <div id="u228_text" class="text ">
+                    <p><span>{{ $b55s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table6 (Group) -->
-              <div id="u179" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
+              <div id="u229" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u180" class="ax_default box_1" data-label="game_name">
-                  <img id="u180_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u180_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u230" class="ax_default box_1" data-label="game_name">
+                  <img id="u230_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u230_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u181" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u181_div" class=""></div>
-                  <div id="u181_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u231" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u231_div" class=""></div>
+                  <div id="u231_text" class="text ">
+                    <p><span>{{ $b56s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u182" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u182_div" class=""></div>
-                  <div id="u182_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u232" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u232_div" class=""></div>
+                  <div id="u232_text" class="text ">
+                    <p><span>{{ $b56s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u183" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u183_div" class=""></div>
-                  <div id="u183_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u233" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u233_div" class=""></div>
+                  <div id="u233_text" class="text ">
+                    <p><span>{{ $b56s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table7 (Group) -->
-              <div id="u184" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
+              <div id="u234" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u185" class="ax_default box_1" data-label="game_name">
-                  <img id="u185_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u185_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u235" class="ax_default box_1" data-label="game_name">
+                  <img id="u235_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u235_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u186" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u186_div" class=""></div>
-                  <div id="u186_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u236" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u236_div" class=""></div>
+                  <div id="u236_text" class="text ">
+                    <p><span>{{ $b57s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u187" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u187_div" class=""></div>
-                  <div id="u187_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u237" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u237_div" class=""></div>
+                  <div id="u237_text" class="text ">
+                    <p><span>{{ $b57s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u188" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u188_div" class=""></div>
-                  <div id="u188_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u238" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u238_div" class=""></div>
+                  <div id="u238_text" class="text ">
+                    <p><span>{{ $b57s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table8 (Group) -->
-              <div id="u189" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
+              <div id="u239" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u190" class="ax_default box_1" data-label="game_name">
-                  <img id="u190_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u190_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u240" class="ax_default box_1" data-label="game_name">
+                  <img id="u240_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u240_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u191" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u191_div" class=""></div>
-                  <div id="u191_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u241" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u241_div" class=""></div>
+                  <div id="u241_text" class="text ">
+                    <p><span>{{ $b58s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u192" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u192_div" class=""></div>
-                  <div id="u192_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u242" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u242_div" class=""></div>
+                  <div id="u242_text" class="text ">
+                    <p><span>{{ $b58s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u193" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u193_div" class=""></div>
-                  <div id="u193_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u243" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u243_div" class=""></div>
+                  <div id="u243_text" class="text ">
+                    <p><span>{{ $b58s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table9 (Group) -->
-              <div id="u194" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
+              <div id="u244" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u195" class="ax_default box_1" data-label="game_name">
-                  <img id="u195_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u195_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u245" class="ax_default box_1" data-label="game_name">
+                  <img id="u245_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u245_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u196" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u196_div" class=""></div>
-                  <div id="u196_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u246" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u246_div" class=""></div>
+                  <div id="u246_text" class="text ">
+                    <p><span>{{ $b59s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u197" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u197_div" class=""></div>
-                  <div id="u197_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u247" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u247_div" class=""></div>
+                  <div id="u247_text" class="text ">
+                    <p><span>{{ $b59s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Shape) -->
-                <div id="u198" class="ax_default box_1" data-label="value_t_corner">
-                  <img id="u198_img" class="img " src="/footballui/public/frontend/images/page_a5/value_t_corner_u198.svg"/>
-                  <div id="u198_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u248" class="ax_default box_1" data-label="value_t_corner">
+                  <img id="u248_img" class="img " src="/footballui/public/frontend/images/page_a5/value_t_corner_u248.svg"/>
+                  <div id="u248_text" class="text ">
+                    <p><span>{{ $b59s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_table10 (Group) -->
-              <div id="u199" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
+              <div id="u249" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u200" class="ax_default box_1" data-label="game_name">
-                  <img id="u200_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u200_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u250" class="ax_default box_1" data-label="game_name">
+                  <img id="u250_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u250_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u201" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u201_div" class=""></div>
-                  <div id="u201_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u251" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u251_div" class=""></div>
+                  <div id="u251_text" class="text ">
+                    <p><span>{{ $b5as->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u202" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u202_div" class=""></div>
-                  <div id="u202_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u252" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u252_div" class=""></div>
+                  <div id="u252_text" class="text ">
+                    <p><span>{{ $b5as->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u203" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u203_div" class=""></div>
-                  <div id="u203_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                <div id="u253" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u253_div" class=""></div>
+                  <div id="u253_text" class="text ">
+                    <p><span>{{ $b5as->total_corner }}</span></p>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table11 (Group) -->
+            <div id="u254" class="ax_default" data-label="corner_value_table11" data-left="0" data-top="665" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u255" class="ax_default box_1" data-label="game_name">
+                <img id="u255_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u255_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u256" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u256_div" class=""></div>
+                <div id="u256_text" class="text ">
+                  <p><span>{{ $b511s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u257" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u257_div" class=""></div>
+                <div id="u257_text" class="text ">
+                  <p><span>{{ $b511s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u258" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u258_div" class=""></div>
+                <div id="u258_text" class="text ">
+                  <p><span>{{ $b511s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table12 (Group) -->
+            <div id="u259" class="ax_default" data-label="corner_value_table12" data-left="0" data-top="720" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u260" class="ax_default box_1" data-label="game_name">
+                <img id="u260_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u260_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u261" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u261_div" class=""></div>
+                <div id="u261_text" class="text ">
+                  <p><span>{{ $b512s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u262" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u262_div" class=""></div>
+                <div id="u262_text" class="text ">
+                  <p><span>{{ $b512s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u263" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u263_div" class=""></div>
+                <div id="u263_text" class="text ">
+                  <p><span>{{ $b512s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table13 (Group) -->
+            <div id="u264" class="ax_default" data-label="corner_value_table13" data-left="0" data-top="775" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u265" class="ax_default box_1" data-label="game_name">
+                <img id="u265_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u265_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u266" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u266_div" class=""></div>
+                <div id="u266_text" class="text ">
+                  <p><span>{{ $b513s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u267" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u267_div" class=""></div>
+                <div id="u267_text" class="text ">
+                  <p><span>{{ $b513s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u268" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u268_div" class=""></div>
+                <div id="u268_text" class="text ">
+                  <p><span>{{ $b513s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table14 (Group) -->
+            <div id="u269" class="ax_default" data-label="corner_value_table14" data-left="0" data-top="831" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u270" class="ax_default box_1" data-label="game_name">
+                <img id="u270_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u270_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u271" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u271_div" class=""></div>
+                <div id="u271_text" class="text ">
+                  <p><span>{{ $b514s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u272" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u272_div" class=""></div>
+                <div id="u272_text" class="text ">
+                  <p><span>{{ $b514s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u273" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u273_div" class=""></div>
+                <div id="u273_text" class="text ">
+                  <p><span>{{ $b514s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table15 (Group) -->
+            <div id="u274" class="ax_default" data-label="corner_value_table15" data-left="0" data-top="886" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u275" class="ax_default box_1" data-label="game_name">
+                <img id="u275_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u275_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u276" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u276_div" class=""></div>
+                <div id="u276_text" class="text ">
+                  <p><span>{{ $b515s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u277" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u277_div" class=""></div>
+                <div id="u277_text" class="text ">
+                  <p><span>{{ $b515s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u278" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u278_div" class=""></div>
+                <div id="u278_text" class="text ">
+                  <p><span>{{ $b515s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table16 (Group) -->
+            <div id="u279" class="ax_default" data-label="corner_value_table16" data-left="0" data-top="942" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u280" class="ax_default box_1" data-label="game_name">
+                <img id="u280_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u280_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u281" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u281_div" class=""></div>
+                <div id="u281_text" class="text ">
+                  <p><span>{{ $b516s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u282" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u282_div" class=""></div>
+                <div id="u282_text" class="text ">
+                  <p><span>{{ $b516s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u283" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u283_div" class=""></div>
+                <div id="u283_text" class="text ">
+                  <p><span>{{ $b516s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table17 (Group) -->
+            <div id="u284" class="ax_default" data-label="corner_value_table17" data-left="0" data-top="997" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u285" class="ax_default box_1" data-label="game_name">
+                <img id="u285_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u285_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u286" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u286_div" class=""></div>
+                <div id="u286_text" class="text ">
+                  <p><span>{{ $b517s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u287" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u287_div" class=""></div>
+                <div id="u287_text" class="text ">
+                  <p><span>{{ $b517s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u288" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u288_div" class=""></div>
+                <div id="u288_text" class="text ">
+                  <p><span>{{ $b517s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table18 (Group) -->
+            <div id="u289" class="ax_default" data-label="corner_value_table18" data-left="0" data-top="1052" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u290" class="ax_default box_1" data-label="game_name">
+                <img id="u290_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u290_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u291" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u291_div" class=""></div>
+                <div id="u291_text" class="text ">
+                  <p><span>{{ $b518s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u292" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u292_div" class=""></div>
+                <div id="u292_text" class="text ">
+                  <p><span>{{ $b518s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u293" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u293_div" class=""></div>
+                <div id="u293_text" class="text ">
+                  <p><span>{{ $b518s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table19 (Group) -->
+            <div id="u294" class="ax_default" data-label="corner_value_table19" data-left="0" data-top="1108" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u295" class="ax_default box_1" data-label="game_name">
+                <img id="u295_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u295_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u296" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u296_div" class=""></div>
+                <div id="u296_text" class="text ">
+                  <p><span>{{ $b519s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u297" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u297_div" class=""></div>
+                <div id="u297_text" class="text ">
+                  <p><span>{{ $b519s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u298" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u298_div" class=""></div>
+                <div id="u298_text" class="text ">
+                  <p><span>{{ $b519s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_table20 (Group) -->
+            <div id="u299" class="ax_default" data-label="corner_table20" data-left="0" data-top="1163" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u300" class="ax_default box_1" data-label="game_name">
+                <img id="u300_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u300_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u301" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u301_div" class=""></div>
+                <div id="u301_text" class="text ">
+                  <p><span>{{ $b520s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u302" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u302_div" class=""></div>
+                <div id="u302_text" class="text ">
+                  <p><span>{{ $b520s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u303" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u303_div" class=""></div>
+                <div id="u303_text" class="text ">
+                  <p><span>{{ $b520s->total_corner }}</span></p>
                 </div>
               </div>
             </div>
@@ -1489,409 +2287,769 @@
           <div id="u89_state2_content" class="panel_state_content">
 
             <!-- corner_table (Group) -->
-            <div id="u204" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
+            <div id="u304" class="ax_default" data-label="corner_table" data-left="0" data-top="0" data-width="913" data-height="662">
 
               <!-- corner_table_title (Group) -->
-              <div id="u205" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
+              <div id="u305" class="ax_default" data-label="corner_table_title" data-left="0" data-top="0" data-width="913" data-height="108">
 
                 <!-- Unnamed (Rectangle) -->
-                <div id="u206" class="ax_default box_1">
-                  <div id="u206_div" class=""></div>
-                  <div id="u206_text" class="text " style="display:none; visibility: hidden">
+                <div id="u306" class="ax_default box_1">
+                  <div id="u306_div" class=""></div>
+                  <div id="u306_text" class="text " style="display:none; visibility: hidden">
                     <p></p>
                   </div>
                 </div>
 
                 <!-- h_corner (Rectangle) -->
-                <div id="u207" class="ax_default box_1" data-label="h_corner">
-                  <div id="u207_div" class=""></div>
-                  <div id="u207_text" class="text ">
+                <div id="u307" class="ax_default box_1" data-label="h_corner">
+                  <div id="u307_div" class=""></div>
+                  <div id="u307_text" class="text ">
                     <p><span>主隊</span></p>
                   </div>
                 </div>
 
                 <!-- g_corner (Rectangle) -->
-                <div id="u208" class="ax_default box_1" data-label="g_corner">
-                  <div id="u208_div" class=""></div>
-                  <div id="u208_text" class="text ">
+                <div id="u308" class="ax_default box_1" data-label="g_corner">
+                  <div id="u308_div" class=""></div>
+                  <div id="u308_text" class="text ">
                     <p><span>客隊</span></p>
                   </div>
                 </div>
 
                 <!-- t_corner (Rectangle) -->
-                <div id="u209" class="ax_default box_1" data-label="t_corner">
-                  <div id="u209_div" class=""></div>
-                  <div id="u209_text" class="text ">
+                <div id="u309" class="ax_default box_1" data-label="t_corner">
+                  <div id="u309_div" class=""></div>
+                  <div id="u309_text" class="text ">
                     <p><span>總角球</span></p>
                   </div>
                 </div>
 
                 <!-- corner (Rectangle) -->
-                <div id="u210" class="ax_default box_1" data-label="corner">
-                  <div id="u210_div" class=""></div>
-                  <div id="u210_text" class="text ">
+                <div id="u310" class="ax_default box_1" data-label="corner">
+                  <div id="u310_div" class=""></div>
+                  <div id="u310_text" class="text ">
                     <p><span>角球數</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table1 (Group) -->
-              <div id="u211" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
+              <div id="u311" class="ax_default" data-label="corner_value_table1" data-left="0" data-top="111" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u212" class="ax_default box_1" data-label="game_name">
-                  <img id="u212_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u212_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u312" class="ax_default box_1" data-label="game_name">
+                  <img id="u312_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u312_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u213" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u213_div" class=""></div>
-                  <div id="u213_text" class="text ">
+                <div id="u313" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u313_div" class=""></div>
+                  <div id="u313_text" class="text ">
                     <p><span>{{ $b5s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u214" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u214_div" class=""></div>
-                  <div id="u214_text" class="text ">
+                <div id="u314" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u314_div" class=""></div>
+                  <div id="u314_text" class="text ">
                     <p><span>{{ $b5s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u215" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u215_div" class=""></div>
-                  <div id="u215_text" class="text ">
+                <div id="u315" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u315_div" class=""></div>
+                  <div id="u315_text" class="text ">
                     <p><span>{{ $b5s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
-              <!-- corner_value_table2 (Group) -->
-              <div id="u216" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
+              <!-- corner_value_ (Group) -->
+              <div id="u316" class="ax_default" data-label="corner_value_table2" data-left="0" data-top="166" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u217" class="ax_default box_1" data-label="game_name">
-                  <img id="u217_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u217_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u317" class="ax_default box_1" data-label="game_name">
+                  <img id="u317_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u317_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u218" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u218_div" class=""></div>
-                  <div id="u218_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u318" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u318_div" class=""></div>
+                  <div id="u318_text" class="text ">
+                    <p><span>{{ $b52s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u219" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u219_div" class=""></div>
-                  <div id="u219_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u319" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u319_div" class=""></div>
+                  <div id="u319_text" class="text ">
+                    <p><span>{{ $b52s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u220" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u220_div" class=""></div>
-                  <div id="u220_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u320" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u320_div" class=""></div>
+                  <div id="u320_text" class="text ">
+                    <p><span>{{ $b52s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table3 (Group) -->
-              <div id="u221" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
+              <div id="u321" class="ax_default" data-label="corner_value_table3" data-left="0" data-top="221" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u222" class="ax_default box_1" data-label="game_name">
-                  <img id="u222_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u222_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u322" class="ax_default box_1" data-label="game_name">
+                  <img id="u322_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u322_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u223" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u223_div" class=""></div>
-                  <div id="u223_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u323" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u323_div" class=""></div>
+                  <div id="u323_text" class="text ">
+                    <p><span>{{ $b53s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u224" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u224_div" class=""></div>
-                  <div id="u224_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u324" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u324_div" class=""></div>
+                  <div id="u324_text" class="text ">
+                    <p><span>{{ $b53s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u225" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u225_div" class=""></div>
-                  <div id="u225_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u325" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u325_div" class=""></div>
+                  <div id="u325_text" class="text ">
+                    <p><span>{{ $b53s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table4 (Group) -->
-              <div id="u226" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
+              <div id="u326" class="ax_default" data-label="corner_value_table4" data-left="0" data-top="277" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u227" class="ax_default box_1" data-label="game_name">
-                  <img id="u227_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u227_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u327" class="ax_default box_1" data-label="game_name">
+                  <img id="u327_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u327_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u228" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u228_div" class=""></div>
-                  <div id="u228_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u328" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u328_div" class=""></div>
+                  <div id="u328_text" class="text ">
+                    <p><span>{{ $b54s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u229" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u229_div" class=""></div>
-                  <div id="u229_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u329" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u329_div" class=""></div>
+                  <div id="u329_text" class="text ">
+                    <p><span>{{ $b54s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u230" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u230_div" class=""></div>
-                  <div id="u230_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u330" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u330_div" class=""></div>
+                  <div id="u330_text" class="text ">
+                    <p><span>{{ $b54s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table5 (Group) -->
-              <div id="u231" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
+              <div id="u331" class="ax_default" data-label="corner_value_table5" data-left="0" data-top="332" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u232" class="ax_default box_1" data-label="game_name">
-                  <img id="u232_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u232_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u332" class="ax_default box_1" data-label="game_name">
+                  <img id="u332_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u332_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u233" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u233_div" class=""></div>
-                  <div id="u233_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u333" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u333_div" class=""></div>
+                  <div id="u333_text" class="text ">
+                    <p><span>{{ $b55s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u234" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u234_div" class=""></div>
-                  <div id="u234_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u334" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u334_div" class=""></div>
+                  <div id="u334_text" class="text ">
+                    <p><span>{{ $b55s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u235" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u235_div" class=""></div>
-                  <div id="u235_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u335" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u335_div" class=""></div>
+                  <div id="u335_text" class="text ">
+                    <p><span>{{ $b55s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table6 (Group) -->
-              <div id="u236" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
+              <div id="u336" class="ax_default" data-label="corner_value_table6" data-left="0" data-top="388" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u237" class="ax_default box_1" data-label="game_name">
-                  <img id="u237_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u237_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u337" class="ax_default box_1" data-label="game_name">
+                  <img id="u337_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u337_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u238" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u238_div" class=""></div>
-                  <div id="u238_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u338" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u338_div" class=""></div>
+                  <div id="u338_text" class="text ">
+                    <p><span>{{ $b56s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u239" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u239_div" class=""></div>
-                  <div id="u239_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u339" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u339_div" class=""></div>
+                  <div id="u339_text" class="text ">
+                    <p><span>{{ $b56s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u240" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u240_div" class=""></div>
-                  <div id="u240_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u340" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u340_div" class=""></div>
+                  <div id="u340_text" class="text ">
+                    <p><span>{{ $b56s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table7 (Group) -->
-              <div id="u241" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
+              <div id="u341" class="ax_default" data-label="corner_value_table7" data-left="0" data-top="443" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u242" class="ax_default box_1" data-label="game_name">
-                  <img id="u242_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
-                  <div id="u242_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u342" class="ax_default box_1" data-label="game_name">
+                  <img id="u342_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                  <div id="u342_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u243" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u243_div" class=""></div>
-                  <div id="u243_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u343" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u343_div" class=""></div>
+                  <div id="u343_text" class="text ">
+                    <p><span>{{ $b57s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u244" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u244_div" class=""></div>
-                  <div id="u244_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u344" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u344_div" class=""></div>
+                  <div id="u344_text" class="text ">
+                    <p><span>{{ $b57s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u245" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u245_div" class=""></div>
-                  <div id="u245_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u345" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u345_div" class=""></div>
+                  <div id="u345_text" class="text ">
+                    <p><span>{{ $b57s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table8 (Group) -->
-              <div id="u246" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
+              <div id="u346" class="ax_default" data-label="corner_value_table8" data-left="0" data-top="498" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u247" class="ax_default box_1" data-label="game_name">
-                  <img id="u247_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u247_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u347" class="ax_default box_1" data-label="game_name">
+                  <img id="u347_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u347_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u248" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u248_div" class=""></div>
-                  <div id="u248_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u348" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u348_div" class=""></div>
+                  <div id="u348_text" class="text ">
+                    <p><span>{{ $b58s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u249" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u249_div" class=""></div>
-                  <div id="u249_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u349" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u349_div" class=""></div>
+                  <div id="u349_text" class="text ">
+                    <p><span>{{ $b58s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u250" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u250_div" class=""></div>
-                  <div id="u250_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u350" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u350_div" class=""></div>
+                  <div id="u350_text" class="text ">
+                    <p><span>{{ $b58s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_value_table9 (Group) -->
-              <div id="u251" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
+              <div id="u351" class="ax_default" data-label="corner_value_table9" data-left="0" data-top="554" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u252" class="ax_default box_1" data-label="game_name">
-                  <img id="u252_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u252_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u352" class="ax_default box_1" data-label="game_name">
+                  <img id="u352_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u352_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u253" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u253_div" class=""></div>
-                  <div id="u253_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u353" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u353_div" class=""></div>
+                  <div id="u353_text" class="text ">
+                    <p><span>{{ $b59s->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u254" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u254_div" class=""></div>
-                  <div id="u254_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u354" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u354_div" class=""></div>
+                  <div id="u354_text" class="text ">
+                    <p><span>{{ $b59s->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u255" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u255_div" class=""></div>
-                  <div id="u255_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}</span></p>
+                <div id="u355" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u355_div" class=""></div>
+                  <div id="u355_text" class="text ">
+                    <p><span>{{ $b59s->total_corner }}</span></p>
                   </div>
                 </div>
               </div>
 
               <!-- corner_table10 (Group) -->
-              <div id="u256" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
+              <div id="u356" class="ax_default" data-label="corner_table10" data-left="0" data-top="609" data-width="913" data-height="53">
 
                 <!-- game_name (Shape) -->
-                <div id="u257" class="ax_default box_1" data-label="game_name">
-                  <img id="u257_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
-                  <div id="u257_text" class="text ">
-                    <p><span>1</span></p>
+                <div id="u357" class="ax_default box_1" data-label="game_name">
+                  <img id="u357_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                  <div id="u357_text" class="text ">
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_h_corner (Rectangle) -->
-                <div id="u258" class="ax_default box_1" data-label="value_h_corner">
-                  <div id="u258_div" class=""></div>
-                  <div id="u258_text" class="text ">
-                    <p><span>{{ $b5s->h_corner }}</span></p>
+                <div id="u358" class="ax_default box_1" data-label="value_h_corner">
+                  <div id="u358_div" class=""></div>
+                  <div id="u358_text" class="text ">
+                    <p><span>{{ $b5as->h_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_g_corner (Rectangle) -->
-                <div id="u259" class="ax_default box_1" data-label="value_g_corner">
-                  <div id="u259_div" class=""></div>
-                  <div id="u259_text" class="text ">
-                    <p><span>{{ $b5s->g_corner }}</span></p>
+                <div id="u359" class="ax_default box_1" data-label="value_g_corner">
+                  <div id="u359_div" class=""></div>
+                  <div id="u359_text" class="text ">
+                    <p><span>{{ $b5as->g_corner }}</span></p>
                   </div>
                 </div>
 
                 <!-- value_t_corner (Rectangle) -->
-                <div id="u260" class="ax_default box_1" data-label="value_t_corner">
-                  <div id="u260_div" class=""></div>
-                  <div id="u260_text" class="text ">
-                    <p><span>{{ $b5s->total_corner }}0</span></p>
+                <div id="u360" class="ax_default box_1" data-label="value_t_corner">
+                  <div id="u360_div" class=""></div>
+                  <div id="u360_text" class="text ">
+                    <p><span>{{ $b5as->total_corner }}</span></p>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table11 (Group) -->
+            <div id="u361" class="ax_default" data-label="corner_value_table11" data-left="0" data-top="665" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u362" class="ax_default box_1" data-label="game_name">
+                <img id="u362_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u362_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u363" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u363_div" class=""></div>
+                <div id="u363_text" class="text ">
+                  <p><span>{{ $b511s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u364" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u364_div" class=""></div>
+                <div id="u364_text" class="text ">
+                  <p><span>{{ $b511s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u365" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u365_div" class=""></div>
+                <div id="u365_text" class="text ">
+                  <p><span>{{ $b511s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table12 (Group) -->
+            <div id="u366" class="ax_default" data-label="corner_value_table12" data-left="0" data-top="720" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u367" class="ax_default box_1" data-label="game_name">
+                <img id="u367_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u367_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u368" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u368_div" class=""></div>
+                <div id="u368_text" class="text ">
+                  <p><span>{{ $b512s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u369" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u369_div" class=""></div>
+                <div id="u369_text" class="text ">
+                  <p><span>{{ $b512s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u370" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u370_div" class=""></div>
+                <div id="u370_text" class="text ">
+                  <p><span>{{ $b512s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table13 (Group) -->
+            <div id="u371" class="ax_default" data-label="corner_value_table13" data-left="0" data-top="775" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u372" class="ax_default box_1" data-label="game_name">
+                <img id="u372_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u372_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u373" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u373_div" class=""></div>
+                <div id="u373_text" class="text ">
+                  <p><span>{{ $b513s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u374" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u374_div" class=""></div>
+                <div id="u374_text" class="text ">
+                  <p><span>{{ $b513s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u375" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u375_div" class=""></div>
+                <div id="u375_text" class="text ">
+                  <p><span>{{ $b513s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table14 (Group) -->
+            <div id="u376" class="ax_default" data-label="corner_value_table14" data-left="0" data-top="831" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u377" class="ax_default box_1" data-label="game_name">
+                <img id="u377_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u377_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u378" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u378_div" class=""></div>
+                <div id="u378_text" class="text ">
+                  <p><span>{{ $b514s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u379" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u379_div" class=""></div>
+                <div id="u379_text" class="text ">
+                  <p><span>{{ $b514s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u380" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u380_div" class=""></div>
+                <div id="u380_text" class="text ">
+                  <p><span>{{ $b514s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table15 (Group) -->
+            <div id="u381" class="ax_default" data-label="corner_value_table15" data-left="0" data-top="886" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u382" class="ax_default box_1" data-label="game_name">
+                <img id="u382_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u382_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u383" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u383_div" class=""></div>
+                <div id="u383_text" class="text ">
+                  <p><span>{{ $b515s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u384" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u384_div" class=""></div>
+                <div id="u384_text" class="text ">
+                  <p><span>{{ $b515s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u385" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u385_div" class=""></div>
+                <div id="u385_text" class="text ">
+                  <p><span>{{ $b515s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table16 (Group) -->
+            <div id="u386" class="ax_default" data-label="corner_value_table16" data-left="0" data-top="942" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u387" class="ax_default box_1" data-label="game_name">
+                <img id="u387_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u387_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u388" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u388_div" class=""></div>
+                <div id="u388_text" class="text ">
+                  <p><span>{{ $b516s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u389" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u389_div" class=""></div>
+                <div id="u389_text" class="text ">
+                  <p><span>{{ $b516s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u390" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u390_div" class=""></div>
+                <div id="u390_text" class="text ">
+                  <p><span>{{ $b516s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table17 (Group) -->
+            <div id="u391" class="ax_default" data-label="corner_value_table17" data-left="0" data-top="997" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u392" class="ax_default box_1" data-label="game_name">
+                <img id="u392_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
+                <div id="u392_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u393" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u393_div" class=""></div>
+                <div id="u393_text" class="text ">
+                  <p><span>{{ $b517s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u394" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u394_div" class=""></div>
+                <div id="u394_text" class="text ">
+                  <p><span>{{ $b517s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u395" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u395_div" class=""></div>
+                <div id="u395_text" class="text ">
+                  <p><span>{{ $b517s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table18 (Group) -->
+            <div id="u396" class="ax_default" data-label="corner_value_table18" data-left="0" data-top="1052" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u397" class="ax_default box_1" data-label="game_name">
+                <img id="u397_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u397_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u398" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u398_div" class=""></div>
+                <div id="u398_text" class="text ">
+                  <p><span>{{ $b518s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u399" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u399_div" class=""></div>
+                <div id="u399_text" class="text ">
+                  <p><span>{{ $b518s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u400" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u400_div" class=""></div>
+                <div id="u400_text" class="text ">
+                  <p><span>{{ $b518s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_value_table19 (Group) -->
+            <div id="u401" class="ax_default" data-label="corner_value_table19" data-left="0" data-top="1108" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u402" class="ax_default box_1" data-label="game_name">
+                <img id="u402_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u402_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u403" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u403_div" class=""></div>
+                <div id="u403_text" class="text ">
+                  <p><span>{{ $b519s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u404" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u404_div" class=""></div>
+                <div id="u404_text" class="text ">
+                  <p><span>{{ $b519s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u405" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u405_div" class=""></div>
+                <div id="u405_text" class="text ">
+                  <p><span>{{ $b519s->total_corner }}</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- corner_table20 (Group) -->
+            <div id="u406" class="ax_default" data-label="corner_table20" data-left="0" data-top="1163" data-width="913" data-height="53">
+
+              <!-- game_name (Shape) -->
+              <div id="u407" class="ax_default box_1" data-label="game_name">
+                <img id="u407_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
+                <div id="u407_text" class="text ">
+                  <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_h_corner (Rectangle) -->
+              <div id="u408" class="ax_default box_1" data-label="value_h_corner">
+                <div id="u408_div" class=""></div>
+                <div id="u408_text" class="text ">
+                  <p><span>{{ $b520s->h_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_g_corner (Rectangle) -->
+              <div id="u409" class="ax_default box_1" data-label="value_g_corner">
+                <div id="u409_div" class=""></div>
+                <div id="u409_text" class="text ">
+                  <p><span>{{ $b520s->g_corner }}</span></p>
+                </div>
+              </div>
+
+              <!-- value_t_corner (Rectangle) -->
+              <div id="u410" class="ax_default box_1" data-label="value_t_corner">
+                <div id="u410_div" class=""></div>
+                <div id="u410_text" class="text ">
+                  <p><span>{{ $b520s->total_corner }}</span></p>
                 </div>
               </div>
             </div>
@@ -1900,41 +3058,43 @@
       </div>
 
       <!-- Date (Group) -->
-      <div id="u261" class="ax_default" data-label="Date" data-left="896" data-top="98" data-width="320" data-height="28">
+      <div id="u411" class="ax_default" data-label="Date" data-left="896" data-top="98" data-width="320" data-height="28">
 
         <!-- After_tomorrow (Rectangle) -->
-        <div id="u262" class="ax_default label" data-label="After_tomorrow">
-          <div id="u262_div" class=""></div>
-          <div id="u262_text" class="text ">
+        <div id="u412" class="ax_default label" data-label="After_tomorrow">
+          <div id="u412_div" class=""></div>
+          <div id="u412_text" class="text ">
             <p><span>後日</span></p>
           </div>
         </div>
 
         <!-- Tomorrow (Rectangle) -->
-        <div id="u263" class="ax_default label" data-label="Tomorrow">
-          <div id="u263_div" class=""></div>
-          <div id="u263_text" class="text ">
+        <div id="u413" class="ax_default label" data-label="Tomorrow">
+          <div id="u413_div" class=""></div>
+          <div id="u413_text" class="text ">
             <p><span>明日</span></p>
           </div>
         </div>
 
         <!-- Today (Rectangle) -->
-        <div id="u264" class="ax_default label" data-label="Today">
-          <div id="u264_div" class=""></div>
-          <div id="u264_text" class="text ">
+        <div id="u414" class="ax_default label" data-label="Today">
+          <div id="u414_div" class=""></div>
+          <div id="u414_text" class="text ">
             <p><span>今日</span></p>
           </div>
         </div>
 
         <!-- Match_date (Rectangle) -->
-        <div id="u265" class="ax_default label" data-label="Match_date">
-          <div id="u265_div" class=""></div>
-          <div id="u265_text" class="text ">
+        <div id="u415" class="ax_default label" data-label="Match_date">
+          <div id="u415_div" class=""></div>
+          <div id="u415_text" class="text ">
             <p><span style="font-family:&quot;PingFangHK-Regular&quot;, &quot;PingFang HK&quot;, sans-serif;">賽程 </span><span style="font-family:&quot;Lucida Grande &quot;, &quot;Lucida Grande&quot;, sans-serif;color:#000000;">►</span></p>
           </div>
         </div>
       </div>
     </div>
     <script src="/footballui/public/frontend/resources/scripts/axure/ios.js"></script>
+    <div id="chartContainer" class="chartContainer"></div>
+    <script src="/footballui/public/frontend/files/page_a8/canvasjs.min.js"></script>
   </body>
 </html>

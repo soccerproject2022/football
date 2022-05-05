@@ -7,6 +7,7 @@ use Auth;
 use App\Models\b1;
 use App\Models\b2;
 use App\Models\b5;
+use App\Models\b7;
 use App\Models\b8;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Carbon;
@@ -232,7 +233,47 @@ class FrontendController extends Controller
         ->join('b5', 'b1.game_id', 'b5.game_id')
         ->select('b1.*', 'b5.*')
         ->first();
-        return view ('frontend/page_a5', compact('b5s','b52s','b53s','b54s','b55s','b56s','b57s','b58s','b59s','b5as'));
+        $b511s = DB::table('b1')->where('id', 11)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b512s = DB::table('b1')->where('id', 12)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b513s = DB::table('b1')->where('id', 13)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b514s = DB::table('b1')->where('id', 14)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b515s = DB::table('b1')->where('id', 15)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b516s = DB::table('b1')->where('id', 16)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b517s = DB::table('b1')->where('id', 17)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b518s = DB::table('b1')->where('id', 18)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b519s = DB::table('b1')->where('id', 19)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        $b520s = DB::table('b1')->where('id', 20)
+        ->join('b5', 'b1.game_id', 'b5.game_id')
+        ->select('b1.*', 'b5.*')
+        ->first();
+        return view ('frontend/page_a5', compact('b5s','b52s','b53s','b54s','b55s','b56s','b57s','b58s','b59s','b5as','b511s','b512s','b513s','b514s','b515s','b516s','b517s','b518s','b519s','b520s'));
 
     }    
 
@@ -242,16 +283,54 @@ class FrontendController extends Controller
 
     }    
 
-    public function ShowA7(){
+    public function ShowA7id($id){
         $b7s = DB::table('b7')->where('game_id', 1)->first();
         return view ('frontend/page_a7', compact('b7s'));
 
     }    
 
-    public function ShowA7id($id){
-        $b7s = DB::table('b7')->where('game_id', $id)->first();
-        $b1s = DB::table('b1')->where('game_id', $id)->first();
-        return view('frontend/page_a7', compact('b1s','b7s'));
+    public function ShowA7(){
+        $b7s = DB::table('b1')->where('id', 1)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b72s = DB::table('b1')->where('id', 2)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b73s = DB::table('b1')->where('id', 3)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b74s = DB::table('b1')->where('id', 4)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b75s = DB::table('b1')->where('id', 5)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b76s = DB::table('b1')->where('id', 6)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b77s = DB::table('b1')->where('id', 7)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b78s = DB::table('b1')->where('id', 9)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b79s = DB::table('b1')->where('id', 10)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        $b7as = DB::table('b1')->where('id', 11)
+        ->join('b7', 'b1.game_id', 'b7.game_id')
+        ->select('b1.h_img', 'b7.opt')
+        ->first();
+        return view ('frontend/page_a7', compact('b7s','b72s','b73s','b74s','b75s','b76s','b77s','b78s','b79s','b7as'));
 
     }
 
