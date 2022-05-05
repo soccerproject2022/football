@@ -273,29 +273,7 @@ class FrontendController extends Controller
         ->join('b5', 'b1.game_id', 'b5.game_id')
         ->select('b1.*', 'b5.*')
         ->first();
-
-        $b1s = DB::table('b1')->where('id', 1)->first();
-        $b12s = DB::table('b1')->where('id', 2)->first();
-        $b13s = DB::table('b1')->where('id', 3)->first();
-        $b14s = DB::table('b1')->where('id', 4)->first();
-        $b15s = DB::table('b1')->where('id', 5)->first();
-        $b16s = DB::table('b1')->where('id', 6)->first();
-        $b17s = DB::table('b1')->where('id', 7)->first();
-        $b18s = DB::table('b1')->where('id', 8)->first();
-        $b19s = DB::table('b1')->where('id', 9)->first();
-        $b1as = DB::table('b1')->where('id', 10)->first();
-        $b111s = DB::table('b1')->where('id', 11)->first();
-        $b112s = DB::table('b1')->where('id', 12)->first();
-        $b113s = DB::table('b1')->where('id', 13)->first();
-        $b114s = DB::table('b1')->where('id', 14)->first();
-        $b115s = DB::table('b1')->where('id', 15)->first();
-        $b116s = DB::table('b1')->where('id', 16)->first();
-        $b117s = DB::table('b1')->where('id', 17)->first();
-        $b118s = DB::table('b1')->where('id', 18)->first();
-        $b119s = DB::table('b1')->where('id', 19)->first();
-        $b120s = DB::table('b1')->where('id', 20)->first();
-
-        return view ('frontend/page_a5', compact('b5s','b52s','b53s','b54s','b55s','b56s','b57s','b58s','b59s','b5as','b511s','b512s','b513s','b514s','b515s','b516s','b517s','b518s','b519s','b520s', 'b1s','b12s','b13s','b14s','b15s','b16s','b17s','b18s','b19s','b1as','b111s','b112s','b113s','b114s','b115s','b116s','b117s','b118s','b119s','b120s'));
+        return view ('frontend/page_a5', compact('b5s','b52s','b53s','b54s','b55s','b56s','b57s','b58s','b59s','b5as','b511s','b512s','b513s','b514s','b515s','b516s','b517s','b518s','b519s','b520s'));
 
     }    
 

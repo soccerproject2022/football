@@ -796,7 +796,7 @@
                 <div id="u98" class="ax_default box_1" data-label="game_name">
                   <img id="u98_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u98_text" class="text ">
-                    <p><span>{{ $b1s->host }} vs {{ $b1s->guest }}</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -832,7 +832,7 @@
                 <div id="u103" class="ax_default box_1" data-label="game_name">
                   <img id="u103_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u103_text" class="text ">
-                    <p><span>{{ $b12s->host }} vs {{ $b12s->guest }}</span></p>
+                    <p><span>{{ $b52s->host }} vs {{ $b52s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -868,7 +868,7 @@
                 <div id="u108" class="ax_default box_1" data-label="game_name">
                   <img id="u108_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u108_text" class="text ">
-                    <p><span>{{ $b13s->host }} vs {{ $b13s->guest }}</span></p>
+                    <p><span>{{ $b53s->host }} vs {{ $b53s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -904,7 +904,7 @@
                 <div id="u113" class="ax_default box_1" data-label="game_name">
                   <img id="u113_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u113_text" class="text ">
-                    <p><span>{{ $b14s->host }} vs {{ $b14s->guest }}</span></p>
+                    <p><span>{{ $b54s->host }} vs {{ $b54s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -940,7 +940,7 @@
                 <div id="u118" class="ax_default box_1" data-label="game_name">
                   <img id="u118_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u118_text" class="text ">
-                    <p><span>{{ $b15s->host }} vs {{ $b15s->guest }}</span></p>
+                    <p><span>{{ $b55s->host }} vs {{ $b55s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -976,7 +976,7 @@
                 <div id="u123" class="ax_default box_1" data-label="game_name">
                   <img id="u123_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u123_text" class="text ">
-                    <p><span>{{ $b16s->host }} vs {{ $b16s->guest }}</span></p>
+                    <p><span>{{ $b56s->host }} vs {{ $b56s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1012,7 +1012,7 @@
                 <div id="u128" class="ax_default box_1" data-label="game_name">
                   <img id="u128_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u128_text" class="text ">
-                    <p><span>{{ $b17s->host }} vs {{ $b17s->guest }}</span></p>
+                    <p><span>{{ $b57s->host }} vs {{ $b57s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1048,7 +1048,7 @@
                 <div id="u133" class="ax_default box_1" data-label="game_name">
                   <img id="u133_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u133_text" class="text ">
-                    <p><span>{{ $b18s->host }} vs {{ $b18s->guest }}</span></p>
+                    <p><span>{{ $b58s->host }} vs {{ $b58s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1084,7 +1084,7 @@
                 <div id="u138" class="ax_default box_1" data-label="game_name">
                   <img id="u138_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u138_text" class="text ">
-                    <p><span>{{ $b19s->host }} vs {{ $b19s->guest }}</span></p>
+                    <p><span>{{ $b59s->host }} vs {{ $b59s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1120,7 +1120,7 @@
                 <div id="u143" class="ax_default box_1" data-label="game_name">
                   <img id="u143_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u143_text" class="text ">
-                    <p><span>{{ $b1as->host }} vs {{ $b1as->guest }}</span></p>
+                    <p><span>{{ $b5as->host }} vs {{ $b5as->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1156,7 +1156,7 @@
                 <div id="u148" class="ax_default box_1" data-label="game_name">
                   <img id="u148_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u148_text" class="text ">
-                    <p><span>{{ $b111s->host }} vs {{ $b111s->guest }}</span></p>
+                    <p><span>{{ $b511s->host }} vs {{ $b511s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1192,7 +1192,7 @@
                 <div id="u153" class="ax_default box_1" data-label="game_name">
                   <img id="u153_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u153_text" class="text ">
-                    <p><span>{{ $b112s->host }} vs {{ $b112s->guest }}</span></p>
+                    <p><span>{{ $b512s->host }} vs {{ $b512s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1228,7 +1228,7 @@
                 <div id="u158" class="ax_default box_1" data-label="game_name">
                   <img id="u158_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u158_text" class="text ">
-                    <p><span>{{ $b113s->host }} vs {{ $b113s->guest }}</span></p>
+                    <p><span>{{ $b513s->host }} vs {{ $b513s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1264,7 +1264,7 @@
                 <div id="u163" class="ax_default box_1" data-label="game_name">
                   <img id="u163_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u163_text" class="text ">
-                    <p><span>{{ $b114s->host }} vs {{ $b114s->guest }}</span></p>
+                    <p><span>{{ $b514s->host }} vs {{ $b514s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1300,7 +1300,7 @@
                 <div id="u168" class="ax_default box_1" data-label="game_name">
                   <img id="u168_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u168_text" class="text ">
-                    <p><span>{{ $b115s->host }} vs {{ $b115s->guest }}</span></p>
+                    <p><span>{{ $b515s->host }} vs {{ $b515s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1336,7 +1336,7 @@
                 <div id="u173" class="ax_default box_1" data-label="game_name">
                   <img id="u173_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u173_text" class="text ">
-                    <p><span>{{ $b116s->host }} vs {{ $b116s->guest }}</span></p>
+                    <p><span>{{ $b516s->host }} vs {{ $b516s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1372,7 +1372,7 @@
                 <div id="u178" class="ax_default box_1" data-label="game_name">
                   <img id="u178_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u178_text" class="text ">
-                    <p><span>{{ $b117s->host }} vs {{ $b117s->guest }}</span></p>
+                    <p><span>{{ $b517s->host }} vs {{ $b517s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1408,7 +1408,7 @@
                 <div id="u183" class="ax_default box_1" data-label="game_name">
                   <img id="u183_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u183_text" class="text ">
-                    <p><span>{{ $b118s->host }} vs {{ $b118s->guest }}</span></p>
+                    <p><span>{{ $b518s->host }} vs {{ $b518s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1444,7 +1444,7 @@
                 <div id="u188" class="ax_default box_1" data-label="game_name">
                   <img id="u188_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u188_text" class="text ">
-                    <p><span>{{ $b119s->host }} vs {{ $b119s->guest }}</span></p>
+                    <p><span>{{ $b519s->host }} vs {{ $b519s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1480,7 +1480,7 @@
                 <div id="u193" class="ax_default box_1" data-label="game_name">
                   <img id="u193_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u193_text" class="text ">
-                    <p><span>{{ $b120s->host }} vs {{ $b120s->guest }}</span></p>
+                    <p><span>{{ $b520s->host }} vs {{ $b520s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1568,7 +1568,7 @@
                 <div id="u205" class="ax_default box_1" data-label="game_name">
                   <img id="u205_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u205_text" class="text ">
-                    <p><span>{{ $b1s->host }} vs {{ $b1s->guest }}</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1604,7 +1604,7 @@
                 <div id="u210" class="ax_default box_1" data-label="game_name">
                   <img id="u210_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u210_text" class="text ">
-                    <p><span>{{ $b12s->host }} vs {{ $b12s->guest }}</span></p>
+                    <p><span>{{ $b52s->host }} vs {{ $b52s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1640,7 +1640,7 @@
                 <div id="u215" class="ax_default box_1" data-label="game_name">
                   <img id="u215_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u215_text" class="text ">
-                    <p><span>{{ $b13s->host }} vs {{ $b13s->guest }}</span></p>
+                    <p><span>{{ $b53s->host }} vs {{ $b53s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1676,7 +1676,7 @@
                 <div id="u220" class="ax_default box_1" data-label="game_name">
                   <img id="u220_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u220_text" class="text ">
-                    <p><span>{{ $b14s->host }} vs {{ $b14s->guest }}</span></p>
+                    <p><span>{{ $b54s->host }} vs {{ $b54s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1712,7 +1712,7 @@
                 <div id="u225" class="ax_default box_1" data-label="game_name">
                   <img id="u225_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u225_text" class="text ">
-                    <p><span>{{ $b15s->host }} vs {{ $b15s->guest }}</span></p>
+                    <p><span>{{ $b55s->host }} vs {{ $b55s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1748,7 +1748,7 @@
                 <div id="u230" class="ax_default box_1" data-label="game_name">
                   <img id="u230_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u230_text" class="text ">
-                    <p><span>{{ $b16s->host }} vs {{ $b16s->guest }}</span></p>
+                    <p><span>{{ $b56s->host }} vs {{ $b56s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1784,7 +1784,7 @@
                 <div id="u235" class="ax_default box_1" data-label="game_name">
                   <img id="u235_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u235_text" class="text ">
-                    <p><span>{{ $b17s->host }} vs {{ $b17s->guest }}</span></p>
+                    <p><span>{{ $b57s->host }} vs {{ $b57s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1820,7 +1820,7 @@
                 <div id="u240" class="ax_default box_1" data-label="game_name">
                   <img id="u240_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u240_text" class="text ">
-                    <p><span>{{ $b18s->host }} vs {{ $b18s->guest }}</span></p>
+                    <p><span>{{ $b58s->host }} vs {{ $b58s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1856,7 +1856,7 @@
                 <div id="u245" class="ax_default box_1" data-label="game_name">
                   <img id="u245_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u245_text" class="text ">
-                    <p><span>{{ $b19s->host }} vs {{ $b19s->guest }}</span></p>
+                    <p><span>{{ $b59s->host }} vs {{ $b59s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1892,7 +1892,7 @@
                 <div id="u250" class="ax_default box_1" data-label="game_name">
                   <img id="u250_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u250_text" class="text ">
-                    <p><span>{{ $b1as->host }} vs {{ $b1as->guest }}</span></p>
+                    <p><span>{{ $b5as->host }} vs {{ $b5as->guest }}</span></p>
                   </div>
                 </div>
 
@@ -1929,7 +1929,7 @@
               <div id="u255" class="ax_default box_1" data-label="game_name">
                 <img id="u255_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u255_text" class="text ">
-                  <p><span>{{ $b111s->host }} vs {{ $b111s->guest }}</span></p>
+                  <p><span>{{ $b511s->host }} vs {{ $b511s->guest }}</span></p>
                 </div>
               </div>
 
@@ -1965,7 +1965,7 @@
               <div id="u260" class="ax_default box_1" data-label="game_name">
                 <img id="u260_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u260_text" class="text ">
-                  <p><span>{{ $b112s->host }} vs {{ $b112s->guest }}</span></p>
+                  <p><span>{{ $b512s->host }} vs {{ $b512s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2001,7 +2001,7 @@
               <div id="u265" class="ax_default box_1" data-label="game_name">
                 <img id="u265_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u265_text" class="text ">
-                  <p><span>{{ $b113s->host }} vs {{ $b113s->guest }}</span></p>
+                  <p><span>{{ $b513s->host }} vs {{ $b513s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2037,7 +2037,7 @@
               <div id="u270" class="ax_default box_1" data-label="game_name">
                 <img id="u270_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u270_text" class="text ">
-                  <p><span>{{ $b114s->host }} vs {{ $b114s->guest }}</span></p>
+                  <p><span>{{ $b514s->host }} vs {{ $b514s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2073,7 +2073,7 @@
               <div id="u275" class="ax_default box_1" data-label="game_name">
                 <img id="u275_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u275_text" class="text ">
-                  <p><span>{{ $b115s->host }} vs {{ $b115s->guest }}</span></p>
+                  <p><span>{{ $b515s->host }} vs {{ $b515s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2109,7 +2109,7 @@
               <div id="u280" class="ax_default box_1" data-label="game_name">
                 <img id="u280_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u280_text" class="text ">
-                  <p><span>{{ $b116s->host }} vs {{ $b116s->guest }}</span></p>
+                  <p><span>{{ $b516s->host }} vs {{ $b516s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2145,7 +2145,7 @@
               <div id="u285" class="ax_default box_1" data-label="game_name">
                 <img id="u285_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u285_text" class="text ">
-                  <p><span>{{ $b117s->host }} vs {{ $b117s->guest }}</span></p>
+                  <p><span>{{ $b517s->host }} vs {{ $b517s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2181,7 +2181,7 @@
               <div id="u290" class="ax_default box_1" data-label="game_name">
                 <img id="u290_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u290_text" class="text ">
-                  <p><span>{{ $b118s->host }} vs {{ $b118s->guest }}</span></p>
+                  <p><span>{{ $b518s->host }} vs {{ $b518s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2217,7 +2217,7 @@
               <div id="u295" class="ax_default box_1" data-label="game_name">
                 <img id="u295_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u295_text" class="text ">
-                  <p><span>{{ $b119s->host }} vs {{ $b119s->guest }}</span></p>
+                  <p><span>{{ $b519s->host }} vs {{ $b519s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2253,7 +2253,7 @@
               <div id="u300" class="ax_default box_1" data-label="game_name">
                 <img id="u300_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u300_text" class="text ">
-                  <p><span>{{ $b120s->host }} vs {{ $b120s->guest }}</span></p>
+                  <p><span>{{ $b520s->host }} vs {{ $b520s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2340,7 +2340,7 @@
                 <div id="u312" class="ax_default box_1" data-label="game_name">
                   <img id="u312_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u312_text" class="text ">
-                    <p><span>{{ $b1s->host }} vs {{ $b1s->guest }}</span></p>
+                    <p><span>{{ $b5s->host }} vs {{ $b5s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2376,7 +2376,7 @@
                 <div id="u317" class="ax_default box_1" data-label="game_name">
                   <img id="u317_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u317_text" class="text ">
-                    <p><span>{{ $b12s->host }} vs {{ $b12s->guest }}</span></p>
+                    <p><span>{{ $b52s->host }} vs {{ $b52s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2412,7 +2412,7 @@
                 <div id="u322" class="ax_default box_1" data-label="game_name">
                   <img id="u322_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u322_text" class="text ">
-                    <p><span>{{ $b13s->host }} vs {{ $b13s->guest }}</span></p>
+                    <p><span>{{ $b53s->host }} vs {{ $b53s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2448,7 +2448,7 @@
                 <div id="u327" class="ax_default box_1" data-label="game_name">
                   <img id="u327_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u327_text" class="text ">
-                    <p><span>{{ $b14s->host }} vs {{ $b14s->guest }}</span></p>
+                    <p><span>{{ $b54s->host }} vs {{ $b54s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2484,7 +2484,7 @@
                 <div id="u332" class="ax_default box_1" data-label="game_name">
                   <img id="u332_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u332_text" class="text ">
-                    <p><span>{{ $b15s->host }} vs {{ $b15s->guest }}</span></p>
+                    <p><span>{{ $b55s->host }} vs {{ $b55s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2520,7 +2520,7 @@
                 <div id="u337" class="ax_default box_1" data-label="game_name">
                   <img id="u337_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u337_text" class="text ">
-                    <p><span>{{ $b16s->host }} vs {{ $b16s->guest }}</span></p>
+                    <p><span>{{ $b56s->host }} vs {{ $b56s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2556,7 +2556,7 @@
                 <div id="u342" class="ax_default box_1" data-label="game_name">
                   <img id="u342_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                   <div id="u342_text" class="text ">
-                    <p><span>{{ $b17s->host }} vs {{ $b17s->guest }}</span></p>
+                    <p><span>{{ $b57s->host }} vs {{ $b57s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2592,7 +2592,7 @@
                 <div id="u347" class="ax_default box_1" data-label="game_name">
                   <img id="u347_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u347_text" class="text ">
-                    <p><span>{{ $b18s->host }} vs {{ $b18s->guest }}</span></p>
+                    <p><span>{{ $b58s->host }} vs {{ $b58s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2628,7 +2628,7 @@
                 <div id="u352" class="ax_default box_1" data-label="game_name">
                   <img id="u352_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u352_text" class="text ">
-                    <p><span>{{ $b19s->host }} vs {{ $b19s->guest }}</span></p>
+                    <p><span>{{ $b59s->host }} vs {{ $b59s->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2664,7 +2664,7 @@
                 <div id="u357" class="ax_default box_1" data-label="game_name">
                   <img id="u357_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                   <div id="u357_text" class="text ">
-                    <p><span>{{ $b1as->host }} vs {{ $b1as->guest }}</span></p>
+                    <p><span>{{ $b5as->host }} vs {{ $b5as->guest }}</span></p>
                   </div>
                 </div>
 
@@ -2701,7 +2701,7 @@
               <div id="u362" class="ax_default box_1" data-label="game_name">
                 <img id="u362_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u362_text" class="text ">
-                  <p><span>{{ $b111s->host }} vs {{ $b111s->guest }}</span></p>
+                  <p><span>{{ $b511s->host }} vs {{ $b511s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2737,7 +2737,7 @@
               <div id="u367" class="ax_default box_1" data-label="game_name">
                 <img id="u367_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u367_text" class="text ">
-                  <p><span>{{ $b112s->host }} vs {{ $b112s->guest }}</span></p>
+                  <p><span>{{ $b512s->host }} vs {{ $b512s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2773,7 +2773,7 @@
               <div id="u372" class="ax_default box_1" data-label="game_name">
                 <img id="u372_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u372_text" class="text ">
-                  <p><span>{{ $b113s->host }} vs {{ $b113s->guest }}</span></p>
+                  <p><span>{{ $b513s->host }} vs {{ $b513s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2809,7 +2809,7 @@
               <div id="u377" class="ax_default box_1" data-label="game_name">
                 <img id="u377_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u377_text" class="text ">
-                  <p><span>{{ $b114s->host }} vs {{ $b114s->guest }}</span></p>
+                  <p><span>{{ $b514s->host }} vs {{ $b514s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2845,7 +2845,7 @@
               <div id="u382" class="ax_default box_1" data-label="game_name">
                 <img id="u382_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u382_text" class="text ">
-                  <p><span>{{ $b115s->host }} vs {{ $b115s->guest }}</span></p>
+                  <p><span>{{ $b515s->host }} vs {{ $b515s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2881,7 +2881,7 @@
               <div id="u387" class="ax_default box_1" data-label="game_name">
                 <img id="u387_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u387_text" class="text ">
-                  <p><span>{{ $b116s->host }} vs {{ $b116s->guest }}</span></p>
+                  <p><span>{{ $b516s->host }} vs {{ $b516s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2917,7 +2917,7 @@
               <div id="u392" class="ax_default box_1" data-label="game_name">
                 <img id="u392_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u98.svg"/>
                 <div id="u392_text" class="text ">
-                  <p><span>{{ $b117s->host }} vs {{ $b117s->guest }}</span></p>
+                  <p><span>{{ $b517s->host }} vs {{ $b517s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2953,7 +2953,7 @@
               <div id="u397" class="ax_default box_1" data-label="game_name">
                 <img id="u397_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u397_text" class="text ">
-                  <p><span>{{ $b118s->host }} vs {{ $b118s->guest }}</span></p>
+                  <p><span>{{ $b518s->host }} vs {{ $b518s->guest }}</span></p>
                 </div>
               </div>
 
@@ -2989,7 +2989,7 @@
               <div id="u402" class="ax_default box_1" data-label="game_name">
                 <img id="u402_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u402_text" class="text ">
-                  <p><span>{{ $b119s->host }} vs {{ $b119s->guest }}</span></p>
+                  <p><span>{{ $b519s->host }} vs {{ $b519s->guest }}</span></p>
                 </div>
               </div>
 
@@ -3025,7 +3025,7 @@
               <div id="u407" class="ax_default box_1" data-label="game_name">
                 <img id="u407_img" class="img " src="/footballui/public/frontend/images/page_a5/game_name_u108.svg"/>
                 <div id="u407_text" class="text ">
-                  <p><span>{{ $b120s->host }} vs {{ $b120s->guest }}</span></p>
+                  <p><span>{{ $b520s->host }} vs {{ $b520s->guest }}</span></p>
                 </div>
               </div>
 
